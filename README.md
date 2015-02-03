@@ -15,5 +15,19 @@ Using the methodology above, we will analyze three codebases:
 - [Backbone](https://github.com/jashkenas/backbone)
 
 ### Project milestones
-- By February 23, we will have a thorough analysis of these three repos showing Gource videos and statistics for answering the project question.
+#### Milestone 1 - January 27
+- Create project question 
+- pick repositories 
+- figure out the methodology for testing question
+
+#### Milestone 2 - February 03
+- Create a hypothesis for the project based on the project question
+- Collect Data from the repositories chosen
+
+#### Milestone 3 - February 17
+- Using the collected data from the repositories, do an analysis on the data
+- Give an assertion based on the data
+
+#### Milestone 4 - February 23
+- will have a thorough analysis of these three repos showing Gource videos and statistics for answering the project question.
 
