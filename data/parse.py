@@ -7,11 +7,12 @@ from pprint import pprint
 import requests
 
 ACCESS_TOKEN = "INSERT YOUR GITHUB API TOKEN HERE"
-REPO_PATH = "twbs/bootstrap"
-REPO_NAME = "bootstrap"
+REPO_PATH = "Homebrew/homebrew"
+REPO_NAME = "homebrew"
+LABEL = "features"
 
 # e.g. https://api.github.com/repos/jashkenas/backbone/issues?labels=enhancement&state=closed&access_token=<access_token>
-enhancement_issues_url = "https://api.github.com/repos/{}/issues?labels=enhancement&state=closed&access_token={}".format(REPO_PATH, ACCESS_TOKEN)
+enhancement_issues_url = "https://api.github.com/repos/{}/issues?labels={}&state=closed&access_token={}".format(REPO_PATH, LABEL, ACCESS_TOKEN)
 closed_pull_requests_url = "https://api.github.com/repos/{}/pulls?state=closed&access_token={}".format(REPO_PATH, ACCESS_TOKEN)
 
 def get_json(url):
