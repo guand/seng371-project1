@@ -31,3 +31,14 @@ Using the methodology above, we will analyze three codebases:
 #### Milestone 4 - February 23
 - will have a thorough analysis of these three repos showing Gource videos and statistics for answering the project question.
 
+### Issues
+- How do get the lines of code(LOC) from the Repositories.
+- What is a good graphical way of displaying LOC to feature requests added over time.
+
+### Running the tool Application
+
+#### Requirements
+- Python 2.6+ 
+- Access Token for Git API: To get Token follow these steps Profile->Settings->Applications->Presonal Access Token->Generate Token
+
+
