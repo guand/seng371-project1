@@ -47,3 +47,5 @@ Edit the following configurations in `parse.py`:
 - REPO_PATH: Repository path e.g. twbs/bootstrap or Homebrew/homebrew
 - REPO_NAME: Repository name e.g. homebrew
 - LABEL: The label for an issue that will be matched with pull requests that got merged into master. This is different for each repo, so be aware.
+
+Then run it: `python parse.py`. It should output a JSON file of pull requests that were merged into master AND issues that had your label.
