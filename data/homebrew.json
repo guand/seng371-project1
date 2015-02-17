@@ -1,0 +1,466 @@
+[
+    {
+        "assignee": null, 
+        "body": "homebrew only shows dependencies one at a time as they are being installed, with no indication of how many brews, or which brews are to be installed. I just added a line to print them all out before installing.", 
+        "closed_at": "2013-08-29T19:03:22Z", 
+        "comments": 5, 
+        "comments_url": "https://api.github.com/repos/Homebrew/homebrew/issues/22187/comments", 
+        "created_at": "2013-08-29T06:50:05Z", 
+        "events_url": "https://api.github.com/repos/Homebrew/homebrew/issues/22187/events", 
+        "html_url": "https://github.com/Homebrew/homebrew/pull/22187", 
+        "id": 18714740, 
+        "labels": [
+            {
+                "color": "DDDDDD", 
+                "name": "features", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/features"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/Homebrew/homebrew/issues/22187/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 22187, 
+        "pull_request": {
+            "diff_url": "https://github.com/Homebrew/homebrew/pull/22187.diff", 
+            "html_url": "https://github.com/Homebrew/homebrew/pull/22187", 
+            "patch_url": "https://github.com/Homebrew/homebrew/pull/22187.patch", 
+            "url": "https://api.github.com/repos/Homebrew/homebrew/pulls/22187"
+        }, 
+        "state": "closed", 
+        "title": "Show a list of all dependencies before beginning to install them.", 
+        "updated_at": "2013-08-29T19:06:13Z", 
+        "url": "https://api.github.com/repos/Homebrew/homebrew/issues/22187", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/270966?v=3", 
+            "events_url": "https://api.github.com/users/kaizoku/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/kaizoku/followers", 
+            "following_url": "https://api.github.com/users/kaizoku/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/kaizoku/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/kaizoku", 
+            "id": 270966, 
+            "login": "kaizoku", 
+            "organizations_url": "https://api.github.com/users/kaizoku/orgs", 
+            "received_events_url": "https://api.github.com/users/kaizoku/received_events", 
+            "repos_url": "https://api.github.com/users/kaizoku/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/kaizoku/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/kaizoku/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/kaizoku"
+        }
+    }, 
+    {
+        "assignee": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/3566?v=3", 
+            "events_url": "https://api.github.com/users/adamv/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/adamv/followers", 
+            "following_url": "https://api.github.com/users/adamv/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/adamv/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/adamv", 
+            "id": 3566, 
+            "login": "adamv", 
+            "organizations_url": "https://api.github.com/users/adamv/orgs", 
+            "received_events_url": "https://api.github.com/users/adamv/received_events", 
+            "repos_url": "https://api.github.com/users/adamv/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/adamv/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/adamv/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/adamv"
+        }, 
+        "body": "Making a real pull request for #20212.", 
+        "closed_at": "2013-09-12T05:11:10Z", 
+        "comments": 64, 
+        "comments_url": "https://api.github.com/repos/Homebrew/homebrew/issues/21714/comments", 
+        "created_at": "2013-08-06T23:42:57Z", 
+        "events_url": "https://api.github.com/repos/Homebrew/homebrew/issues/21714/events", 
+        "html_url": "https://github.com/Homebrew/homebrew/pull/21714", 
+        "id": 17722655, 
+        "labels": [
+            {
+                "color": "DDDDDD", 
+                "name": "features", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/features"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/Homebrew/homebrew/issues/21714/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 21714, 
+        "pull_request": {
+            "diff_url": "https://github.com/Homebrew/homebrew/pull/21714.diff", 
+            "html_url": "https://github.com/Homebrew/homebrew/pull/21714", 
+            "patch_url": "https://github.com/Homebrew/homebrew/pull/21714.patch", 
+            "url": "https://api.github.com/repos/Homebrew/homebrew/pulls/21714"
+        }, 
+        "state": "closed", 
+        "title": "Implement Resources", 
+        "updated_at": "2013-09-12T05:11:15Z", 
+        "url": "https://api.github.com/repos/Homebrew/homebrew/issues/21714", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/3566?v=3", 
+            "events_url": "https://api.github.com/users/adamv/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/adamv/followers", 
+            "following_url": "https://api.github.com/users/adamv/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/adamv/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/adamv", 
+            "id": 3566, 
+            "login": "adamv", 
+            "organizations_url": "https://api.github.com/users/adamv/orgs", 
+            "received_events_url": "https://api.github.com/users/adamv/received_events", 
+            "repos_url": "https://api.github.com/users/adamv/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/adamv/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/adamv/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/adamv"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "homebrew only shows dependencies one at a time as they are being installed, with no indication of how many brews, or which brews are to be installed. I just added a line to print them all out before installing.", 
+        "closed_at": "2013-08-29T19:03:22Z", 
+        "comments": 5, 
+        "comments_url": "https://api.github.com/repos/Homebrew/homebrew/issues/22187/comments", 
+        "created_at": "2013-08-29T06:50:05Z", 
+        "events_url": "https://api.github.com/repos/Homebrew/homebrew/issues/22187/events", 
+        "html_url": "https://github.com/Homebrew/homebrew/pull/22187", 
+        "id": 18714740, 
+        "labels": [
+            {
+                "color": "DDDDDD", 
+                "name": "features", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/features"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/Homebrew/homebrew/issues/22187/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 22187, 
+        "pull_request": {
+            "diff_url": "https://github.com/Homebrew/homebrew/pull/22187.diff", 
+            "html_url": "https://github.com/Homebrew/homebrew/pull/22187", 
+            "patch_url": "https://github.com/Homebrew/homebrew/pull/22187.patch", 
+            "url": "https://api.github.com/repos/Homebrew/homebrew/pulls/22187"
+        }, 
+        "state": "closed", 
+        "title": "Show a list of all dependencies before beginning to install them.", 
+        "updated_at": "2013-08-29T19:06:13Z", 
+        "url": "https://api.github.com/repos/Homebrew/homebrew/issues/22187", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/270966?v=3", 
+            "events_url": "https://api.github.com/users/kaizoku/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/kaizoku/followers", 
+            "following_url": "https://api.github.com/users/kaizoku/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/kaizoku/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/kaizoku", 
+            "id": 270966, 
+            "login": "kaizoku", 
+            "organizations_url": "https://api.github.com/users/kaizoku/orgs", 
+            "received_events_url": "https://api.github.com/users/kaizoku/received_events", 
+            "repos_url": "https://api.github.com/users/kaizoku/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/kaizoku/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/kaizoku/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/kaizoku"
+        }
+    }, 
+    {
+        "assignee": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/3566?v=3", 
+            "events_url": "https://api.github.com/users/adamv/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/adamv/followers", 
+            "following_url": "https://api.github.com/users/adamv/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/adamv/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/adamv", 
+            "id": 3566, 
+            "login": "adamv", 
+            "organizations_url": "https://api.github.com/users/adamv/orgs", 
+            "received_events_url": "https://api.github.com/users/adamv/received_events", 
+            "repos_url": "https://api.github.com/users/adamv/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/adamv/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/adamv/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/adamv"
+        }, 
+        "body": "Making a real pull request for #20212.", 
+        "closed_at": "2013-09-12T05:11:10Z", 
+        "comments": 64, 
+        "comments_url": "https://api.github.com/repos/Homebrew/homebrew/issues/21714/comments", 
+        "created_at": "2013-08-06T23:42:57Z", 
+        "events_url": "https://api.github.com/repos/Homebrew/homebrew/issues/21714/events", 
+        "html_url": "https://github.com/Homebrew/homebrew/pull/21714", 
+        "id": 17722655, 
+        "labels": [
+            {
+                "color": "DDDDDD", 
+                "name": "features", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/features"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/Homebrew/homebrew/issues/21714/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 21714, 
+        "pull_request": {
+            "diff_url": "https://github.com/Homebrew/homebrew/pull/21714.diff", 
+            "html_url": "https://github.com/Homebrew/homebrew/pull/21714", 
+            "patch_url": "https://github.com/Homebrew/homebrew/pull/21714.patch", 
+            "url": "https://api.github.com/repos/Homebrew/homebrew/pulls/21714"
+        }, 
+        "state": "closed", 
+        "title": "Implement Resources", 
+        "updated_at": "2013-09-12T05:11:15Z", 
+        "url": "https://api.github.com/repos/Homebrew/homebrew/issues/21714", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/3566?v=3", 
+            "events_url": "https://api.github.com/users/adamv/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/adamv/followers", 
+            "following_url": "https://api.github.com/users/adamv/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/adamv/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/adamv", 
+            "id": 3566, 
+            "login": "adamv", 
+            "organizations_url": "https://api.github.com/users/adamv/orgs", 
+            "received_events_url": "https://api.github.com/users/adamv/received_events", 
+            "repos_url": "https://api.github.com/users/adamv/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/adamv/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/adamv/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/adamv"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Homebrew has many features and not all of them are documented completely in the [Formula-Cookbook](https://github.com/mxcl/homebrew/wiki/Formula-Cookbook), so often we suggest to look at other formulae. I do this myself because I forget how to do certain things :)\r\nOn the mailing list Max asked to do a reference sheet. The suggestion then was to provide an example formula (this one here passes even `brew audit` although it is totally dysfunctional).\r\n\r\nThe idea is that we keep this formula up-to-date with the recommended API to write formulae. It is a kind of cheat sheet that shows more features than the wiki currently, though some aspects are more detailed in the wiki.\r\n\r\nStill few things missing and probably I did mistakes. Therefore I ask for review.\r\n\r\n### Todo:\r\n- [x] MPI stuff\r\n- [x] `depends_on :fortran`\r\n- [x] plist stuff. I don't know much about that.\r\n- [x] LanguageModuleDependency other than python\r\n...\r\n\r\n\r\n", 
+        "closed_at": "2013-08-20T13:39:28Z", 
+        "comments": 8, 
+        "comments_url": "https://api.github.com/repos/Homebrew/homebrew/issues/21054/comments", 
+        "created_at": "2013-07-07T12:42:28Z", 
+        "events_url": "https://api.github.com/repos/Homebrew/homebrew/issues/21054/events", 
+        "html_url": "https://github.com/Homebrew/homebrew/pull/21054", 
+        "id": 16442502, 
+        "labels": [
+            {
+                "color": "DDDDDD", 
+                "name": "features", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/features"
+            }, 
+            {
+                "color": "DDDDDD", 
+                "name": "usability", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/usability"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/Homebrew/homebrew/issues/21054/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 21054, 
+        "pull_request": {
+            "diff_url": "https://github.com/Homebrew/homebrew/pull/21054.diff", 
+            "html_url": "https://github.com/Homebrew/homebrew/pull/21054", 
+            "patch_url": "https://github.com/Homebrew/homebrew/pull/21054.patch", 
+            "url": "https://api.github.com/repos/Homebrew/homebrew/pulls/21054"
+        }, 
+        "state": "closed", 
+        "title": "Adding an example.rb formula to show all features", 
+        "updated_at": "2013-08-20T13:41:18Z", 
+        "url": "https://api.github.com/repos/Homebrew/homebrew/issues/21054", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/725299?v=3", 
+            "events_url": "https://api.github.com/users/samueljohn/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/samueljohn/followers", 
+            "following_url": "https://api.github.com/users/samueljohn/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/samueljohn/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/samueljohn", 
+            "id": 725299, 
+            "login": "samueljohn", 
+            "organizations_url": "https://api.github.com/users/samueljohn/orgs", 
+            "received_events_url": "https://api.github.com/users/samueljohn/received_events", 
+            "repos_url": "https://api.github.com/users/samueljohn/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/samueljohn/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/samueljohn/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/samueljohn"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "### Introduction\r\n\r\nTo avoid having multiple formulae with endings `-py2` and `-py3`, we will handle support for different pythons (2.x vs. 3.x) in the same formula. Further brewed vs. external python will be transparently supported.\r\n\r\nNew python Requirements:\r\n\r\n```ruby\r\ndepends_on :python => :recommended\r\ndepends_on :python3 => :optional  # so --with-python3 option will be generated\r\n# or to declare a specific version:\r\ndepends_on PythonInstalled.new(\"2.6\")  \r\n```\r\n\r\nMost formulae should just work with this little change.\r\n\r\n\r\n### The `python` object that will support formula dev\r\n\r\nIn the Formula class there will be a `python` object available (`python2` and `python3`, too), that supports some convenience methods which do the complicated work of figuring out the information no matter which python version or brewed vs. python from OS X:\r\n\r\n```ruby\r\npython.site_packages # the site-packages in the Cellar for the current formulae that will later be linked globally\r\npython.global_site_packages\r\npython.binary # the full path to the python binary. For brewed python: HOMEBREW_PREFIX/opt/python/bin/python2\r\npython.prefix\r\npython.version\r\npython.version.major\r\npython.version.minor\r\npython.xy # => e.g. \"python2.7\"\r\npython.incdir # includes of python\r\npython.libdir # the python dylib library\r\npython.pkg_config_path # used internally by brew\r\npython.from_osx?\r\npython.framework?\r\npython.universal?\r\npython.pypy?\r\npython.standard_caveats # The usual text to set PYTHONPATH that is only shown for python.from_osx?\r\npython.if3then3 # => \"\" for 2.x and to \"3\" for 3.x.\r\n```\r\n\r\nInstead of using `python`, there is also `python2` and `python3` to explicitly refer to 2.x and 3.x resp..\r\n\r\n\r\n### Executing code only for 2.x or 3.x\r\n\r\nIt is also possible to\r\n```ruby\r\nif python2\r\n  # do something specific for python 2.x\r\nend\r\n\r\nif python3\r\n  # do something specific for python 3.x\r\nend\r\n\r\nunless python\r\n  # do something if there is no python (or python support was disabled --without-python --without-python3)\r\nend\r\n```\r\n\r\n### The `python do ... end` block\r\n\r\nAnd one of the most important features is the `python`-block which creates the `python.site_packages` dir and already sets the `PYTHONPATH` correctly. This block is executes **once for each python requirement**.\r\n\r\nFormulae that use a `setup.py` to install python bindings, can do \r\n```ruby\r\n\r\ndepends_on :python\r\ndepends_on :python3\r\n\r\npython do\r\n  # sets up PYTHONPATH and site-packages.\r\n  # The python object within this block points to the python 2.x in the first round\r\n  # and to 3.x in the second round.\r\n  system python, \"setup.py\", \"install\", \"--prefix=#{prefix}\"\r\nend\r\n```\r\n\r\n### Are now all formulae automatically available for python 3.x?\r\n\r\nNo.\r\n\r\nAdding Python 3.x support for individual formulae and testing that will take longer and I won't do this right now for all of the formulae. However, I did this for some to test things out.\r\n\r\n### Tasks:\r\n\r\n- [x] `depends_on :python` Requirement (python is a synonym for python2 here)\r\n- [x] `depends_on :python3` Requirement\r\n- [x] Write the correct sitecustomize.py also if the requirement is used.\r\n- [x] Improve sitecustomize.py so that multiple versions (and external) are better supported.\r\n- [x] Write the distutils.cfg if the requirement is used.\r\n- [x] Update Python formulae to reuse sitecustomize.py\r\n- [x] Allow formulae to use `setup.py --prefix=#{prefix}` instead of the complicated stuff as is.\r\n- [x] `pip` will install executable scripts to `HOMEBREW_PREFIX` (solves a few issues)\r\n- [x] Provide `python.standard_caveats`\r\n- [x] Add Python's pkg-config during build\r\n- [x] Use a temporary build environment to not touch stuff outside of the python block\r\n- [x] Provide `python.global_site_packages`\r\n- [x] Provide `python.binary` to indirect the call to python\r\n- [x] Replace `which_python` by `python.xy`\r\n- [x] Provide `python do` block \r\n- [x] Provide `python2 do` block which is only run if a python 2.x has been found and unless `--without-python`.\r\n- [x] Provide `python.incdir` (sometimes needed for cmake based projects)\r\n- [x] Provide `python.libdir` (sometimes needed for cmake based projects)\r\n- [x] Provide `python.version.major` and `python.version.minor`\r\n- [x] Provide `python.if3then3` which evaluates to \"\" for 2.x and to \"3\" for 3.x.\r\n- [x] Provide `python.framework` (is `nil` for non-framework builds)\r\n- [x] Provide `python.universal?`\r\n- [x] Provide `python.pypy?`\r\n- [x] Provide `python.brewed?`\r\n- [x] Provide `python.from_osx?`\r\n- [x] test :hg download strategy\r\n- [ ] Write test_python.rb\r\n- [ ] Do we want `brew create --python` ?\r\n- [x] Check that the user has not `python -> python3` symlink, which is not recommended.\r\n- [x] Update audit to tell people to use the blocks and requirements\r\n\r\nFormulae in homebrew core to update accordingly (list created via grep for python):\r\n- [x] bazaar\r\n- [x] beecrypt\r\n- [x] boost\r\n- [x] boost149\r\n- [x] bulk_extractor\r\n- [x] bup\r\n- [x] cantera\r\n- [x] cmu-sphinxbase\r\n- [x] collectd\r\n- [x] cracklib\r\n- [x] cvs2svn\r\n- [x] denyhosts\r\n- [x] diffuse\r\n- [x] disco\r\n- [x] discodex\r\n- [x] distcc\r\n- [x] duplicity\r\n- [x] enchant\r\n- [x] fail2ban\r\n- [x] fontforge\r\n- [x] fsh\r\n- [x] gdal\r\n- [x] git-cola\r\n- [x] git\r\n- [x] glade\r\n- [x] gnome-doc-utils\r\n- [x] google-app-engine\r\n- [x] gpsd\r\n- [x] grass\r\n- [x] grc\r\n- [x] gtk-doc\r\n- [x] io\r\n- [x] ldns\r\n- [x] ledger\r\n- [x] libcaca\r\n- [x] libdnet\r\n- [x] liblunar\r\n- [x] libming\r\n- [x] libplist\r\n- [x] libpst\r\n- [x] librets\r\n- [x] libstfl\r\n- [x] libxml2\r\n- [x] lilypond\r\n- [x] little-cms\r\n- [x] llvm\r\n- [x] lorem\r\n- [x] macvim\r\n- [x] mapnik\r\n- [x] mapserver\r\n- [x] mercurial\r\n- [x] node\r\n- [x] omni\r\n- [x] open-babel\r\n- [x] opencolorio\r\n- [x] orfeo\r\n- [x] oscats\r\n- [x] owfs\r\n- [x] pil\r\n- [x] portmidi\r\n- [x] postgres-xc\r\n- [x] postgresql\r\n- [x] py2cairo\r\n- [x] pyexiv2\r\n- [x] pygtk\r\n- [x] pygtkglext\r\n- [x] pygtksourceview\r\n- [x] pyqt\r\n- [x] pyqwt\r\n- [x] pyside-tools\r\n- [x] pyside\r\n- [x] python\r\n- [x] python3\r\n- [x] qscintilla2\r\n- [x] rabbitmq-c\r\n- [x] rabbitmq\r\n- [x] rdiff-backup\r\n- [x] rubber\r\n- [x] scons\r\n- [x] shiboken\r\n- [x] shocco\r\n- [x] sickbeard\r\n- [x] sip\r\n- [x] subversion\r\n- [x] swatchbooker\r\n- [x] thrift\r\n- [x] treeline\r\n- [x] uwsgi\r\n- [x] vim\r\n- [x] vte\r\n- [x] weechat\r\n- [x] wireshark\r\n- [x] wxmac\r\n- [x] xapian\r\n- [x] xchat\r\n- [x] yasm\r\n- [x] yle-dl\r\n- [x] zbar\r\n- [x] zookeeper\r\n", 
+        "closed_at": "2013-06-03T15:36:20Z", 
+        "comments": 18, 
+        "comments_url": "https://api.github.com/repos/Homebrew/homebrew/issues/18588/comments", 
+        "created_at": "2013-03-19T13:41:59Z", 
+        "events_url": "https://api.github.com/repos/Homebrew/homebrew/issues/18588/events", 
+        "html_url": "https://github.com/Homebrew/homebrew/pull/18588", 
+        "id": 12180301, 
+        "labels": [
+            {
+                "color": "DDDDDD", 
+                "name": "features", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/features"
+            }, 
+            {
+                "color": "9af51f", 
+                "name": "python", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/python"
+            }, 
+            {
+                "color": "e10c02", 
+                "name": "superenv", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/superenv"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/Homebrew/homebrew/issues/18588/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 18588, 
+        "pull_request": {
+            "diff_url": "https://github.com/Homebrew/homebrew/pull/18588.diff", 
+            "html_url": "https://github.com/Homebrew/homebrew/pull/18588", 
+            "patch_url": "https://github.com/Homebrew/homebrew/pull/18588.patch", 
+            "url": "https://api.github.com/repos/Homebrew/homebrew/pulls/18588"
+        }, 
+        "state": "closed", 
+        "title": "Python 2.x and 3.x", 
+        "updated_at": "2013-11-16T18:34:16Z", 
+        "url": "https://api.github.com/repos/Homebrew/homebrew/issues/18588", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/725299?v=3", 
+            "events_url": "https://api.github.com/users/samueljohn/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/samueljohn/followers", 
+            "following_url": "https://api.github.com/users/samueljohn/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/samueljohn/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/samueljohn", 
+            "id": 725299, 
+            "login": "samueljohn", 
+            "organizations_url": "https://api.github.com/users/samueljohn/orgs", 
+            "received_events_url": "https://api.github.com/users/samueljohn/received_events", 
+            "repos_url": "https://api.github.com/users/samueljohn/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/samueljohn/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/samueljohn/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/samueljohn"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "I converted two colleagues to homebrew. Yay. And two times, I was asked which formulae were added by a certain tap. (Of course `ls $(brew --prefix)/Library/Taps/samueljohn-python` works).\r\n\r\nI propose `brew search <tapname>` to show the contents of a tapped directory. \r\n\r\nFurther, after `brew tap <tapname>`, I would appreciate that the tapped formulae would be listed or at least the proposed `brew list <tapname>` should be mentioned. This is not yet implemented by this PR.\r\n\r\n", 
+        "closed_at": "2013-09-03T09:53:07Z", 
+        "comments": 10, 
+        "comments_url": "https://api.github.com/repos/Homebrew/homebrew/issues/17420/comments", 
+        "created_at": "2013-01-29T22:41:43Z", 
+        "events_url": "https://api.github.com/repos/Homebrew/homebrew/issues/17420/events", 
+        "html_url": "https://github.com/Homebrew/homebrew/pull/17420", 
+        "id": 10437715, 
+        "labels": [
+            {
+                "color": "DDDDDD", 
+                "name": "features", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/features"
+            }, 
+            {
+                "color": "e10c02", 
+                "name": "tap", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/tap"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/Homebrew/homebrew/issues/17420/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 17420, 
+        "pull_request": {
+            "diff_url": "https://github.com/Homebrew/homebrew/pull/17420.diff", 
+            "html_url": "https://github.com/Homebrew/homebrew/pull/17420", 
+            "patch_url": "https://github.com/Homebrew/homebrew/pull/17420.patch", 
+            "url": "https://api.github.com/repos/Homebrew/homebrew/pulls/17420"
+        }, 
+        "state": "closed", 
+        "title": "brew search <tapname>", 
+        "updated_at": "2013-09-03T09:53:07Z", 
+        "url": "https://api.github.com/repos/Homebrew/homebrew/issues/17420", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/725299?v=3", 
+            "events_url": "https://api.github.com/users/samueljohn/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/samueljohn/followers", 
+            "following_url": "https://api.github.com/users/samueljohn/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/samueljohn/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/samueljohn", 
+            "id": 725299, 
+            "login": "samueljohn", 
+            "organizations_url": "https://api.github.com/users/samueljohn/orgs", 
+            "received_events_url": "https://api.github.com/users/samueljohn/received_events", 
+            "repos_url": "https://api.github.com/users/samueljohn/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/samueljohn/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/samueljohn/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/samueljohn"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This isn't done yet. We probably need something for \"system plists\" (/Library rather than ~/Library) and possibly a way of specifying a manual command to run if you don't want to use launchd.\n\nAny suggestions on DSL additions or functions to add for these? I'm happy to do the work I'm just undecided about the best approach here.", 
+        "closed_at": "2012-11-25T23:09:01Z", 
+        "comments": 32, 
+        "comments_url": "https://api.github.com/repos/Homebrew/homebrew/issues/14997/comments", 
+        "created_at": "2012-09-18T12:18:15Z", 
+        "events_url": "https://api.github.com/repos/Homebrew/homebrew/issues/14997/events", 
+        "html_url": "https://github.com/Homebrew/homebrew/pull/14997", 
+        "id": 6950619, 
+        "labels": [
+            {
+                "color": "DDDDDD", 
+                "name": "features", 
+                "url": "https://api.github.com/repos/Homebrew/homebrew/labels/features"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/Homebrew/homebrew/issues/14997/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 14997, 
+        "pull_request": {
+            "diff_url": "https://github.com/Homebrew/homebrew/pull/14997.diff", 
+            "html_url": "https://github.com/Homebrew/homebrew/pull/14997", 
+            "patch_url": "https://github.com/Homebrew/homebrew/pull/14997.patch", 
+            "url": "https://api.github.com/repos/Homebrew/homebrew/pulls/14997"
+        }, 
+        "state": "closed", 
+        "title": "Move launchd instructions to formula_installer.", 
+        "updated_at": "2012-12-16T17:08:57Z", 
+        "url": "https://api.github.com/repos/Homebrew/homebrew/issues/14997", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/125011?v=3", 
+            "events_url": "https://api.github.com/users/mikemcquaid/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/mikemcquaid/followers", 
+            "following_url": "https://api.github.com/users/mikemcquaid/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/mikemcquaid/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/mikemcquaid", 
+            "id": 125011, 
+            "login": "mikemcquaid", 
+            "organizations_url": "https://api.github.com/users/mikemcquaid/orgs", 
+            "received_events_url": "https://api.github.com/users/mikemcquaid/received_events", 
+            "repos_url": "https://api.github.com/users/mikemcquaid/repos", 
+            "site_admin": true, 
+            "starred_url": "https://api.github.com/users/mikemcquaid/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/mikemcquaid/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/mikemcquaid"
+        }
+    }
+]

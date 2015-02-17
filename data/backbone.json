@@ -1,0 +1,3064 @@
+[
+    {
+        "assignee": null, 
+        "body": "This is a really simple change that will allow users to customise the cid prefix to prevent clashes with backend model ids and resolve issues like https://github.com/jashkenas/backbone/pull/3356 and https://github.com/jashkenas/backbone/issues/2920.\r\n\r\nI know that this is an edge case but given the small amount of code change required I hope it won't be a problem.", 
+        "closed_at": "2015-02-12T17:23:12Z", 
+        "comments": 4, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3490/comments", 
+        "created_at": "2015-02-11T21:42:40Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3490/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3490", 
+        "id": 57381788, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3490/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3490, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3490.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3490", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3490.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3490"
+        }, 
+        "state": "closed", 
+        "title": "Customise model cid prefix", 
+        "updated_at": "2015-02-12T17:23:12Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3490", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/734823?v=3", 
+            "events_url": "https://api.github.com/users/yousefcisco/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/yousefcisco/followers", 
+            "following_url": "https://api.github.com/users/yousefcisco/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/yousefcisco/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/yousefcisco", 
+            "id": 734823, 
+            "login": "yousefcisco", 
+            "organizations_url": "https://api.github.com/users/yousefcisco/orgs", 
+            "received_events_url": "https://api.github.com/users/yousefcisco/received_events", 
+            "repos_url": "https://api.github.com/users/yousefcisco/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/yousefcisco/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/yousefcisco/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/yousefcisco"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2015-02-10T15:47:20Z", 
+        "comments": 1, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3485/comments", 
+        "created_at": "2015-02-10T05:31:59Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3485/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3485", 
+        "id": 57132803, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3485/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3485, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3485.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3485", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3485.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3485"
+        }, 
+        "state": "closed", 
+        "title": "[minor] Update QUnit to v1.7.1", 
+        "updated_at": "2015-02-10T15:47:22Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3485", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/3475472?v=3", 
+            "events_url": "https://api.github.com/users/megawac/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/megawac/followers", 
+            "following_url": "https://api.github.com/users/megawac/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/megawac/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/megawac", 
+            "id": 3475472, 
+            "login": "megawac", 
+            "organizations_url": "https://api.github.com/users/megawac/orgs", 
+            "received_events_url": "https://api.github.com/users/megawac/received_events", 
+            "repos_url": "https://api.github.com/users/megawac/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/megawac/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/megawac/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/megawac"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "To be clear, I think the trigger with object behavior is silly. But I needed tests to ensure that my [`eventsApi` refactor](https://github.com/jridgewell/backbone/tree/eventsApi-refactor) kept the current functionality.\r\n\r\nRe: https://github.com/jashkenas/backbone/issues/3460", 
+        "closed_at": "2015-01-28T20:42:51Z", 
+        "comments": 0, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3465/comments", 
+        "created_at": "2015-01-25T18:41:13Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3465/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3465", 
+        "id": 55424653, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3465/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3465, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3465.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3465", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3465.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3465"
+        }, 
+        "state": "closed", 
+        "title": "Test trigger arguments behavior", 
+        "updated_at": "2015-01-28T20:42:55Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3465", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3", 
+            "events_url": "https://api.github.com/users/jridgewell/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/jridgewell/followers", 
+            "following_url": "https://api.github.com/users/jridgewell/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/jridgewell", 
+            "id": 112982, 
+            "login": "jridgewell", 
+            "organizations_url": "https://api.github.com/users/jridgewell/orgs", 
+            "received_events_url": "https://api.github.com/users/jridgewell/received_events", 
+            "repos_url": "https://api.github.com/users/jridgewell/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/jridgewell"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-11-12T20:20:29Z", 
+        "comments": 3, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3331/comments", 
+        "created_at": "2014-10-03T04:21:39Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3331/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3331", 
+        "id": 44766128, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3331/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3331, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3331.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3331", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3331.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3331"
+        }, 
+        "state": "closed", 
+        "title": "Use matches in .where", 
+        "updated_at": "2014-11-16T21:11:05Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3331", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/3475472?v=3", 
+            "events_url": "https://api.github.com/users/megawac/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/megawac/followers", 
+            "following_url": "https://api.github.com/users/megawac/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/megawac/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/megawac", 
+            "id": 3475472, 
+            "login": "megawac", 
+            "organizations_url": "https://api.github.com/users/megawac/orgs", 
+            "received_events_url": "https://api.github.com/users/megawac/received_events", 
+            "repos_url": "https://api.github.com/users/megawac/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/megawac/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/megawac/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/megawac"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Discussion \u2192 #3070", 
+        "closed_at": "2014-12-15T17:15:33Z", 
+        "comments": 10, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3307/comments", 
+        "created_at": "2014-09-11T17:12:04Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3307/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3307", 
+        "id": 42548209, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3307/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3307, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3307.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3307", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3307.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3307"
+        }, 
+        "state": "closed", 
+        "title": "Add `Model::matches` as special-cased proxy to `_.matches`", 
+        "updated_at": "2015-02-11T19:56:03Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3307", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/18397?v=3", 
+            "events_url": "https://api.github.com/users/gf3/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/gf3/followers", 
+            "following_url": "https://api.github.com/users/gf3/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/gf3/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/gf3", 
+            "id": 18397, 
+            "login": "gf3", 
+            "organizations_url": "https://api.github.com/users/gf3/orgs", 
+            "received_events_url": "https://api.github.com/users/gf3/received_events", 
+            "repos_url": "https://api.github.com/users/gf3/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/gf3/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/gf3/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/gf3"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-09-23T19:37:45Z", 
+        "comments": 24, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3301/comments", 
+        "created_at": "2014-09-09T13:47:55Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3301/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3301", 
+        "id": 42307827, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3301/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3301, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3301.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3301", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3301.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3301"
+        }, 
+        "state": "closed", 
+        "title": "Enhancing Model with isEmpty function", 
+        "updated_at": "2014-09-23T20:32:38Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3301", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1483306?v=3", 
+            "events_url": "https://api.github.com/users/AndrewEastwood/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/AndrewEastwood/followers", 
+            "following_url": "https://api.github.com/users/AndrewEastwood/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/AndrewEastwood/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/AndrewEastwood", 
+            "id": 1483306, 
+            "login": "AndrewEastwood", 
+            "organizations_url": "https://api.github.com/users/AndrewEastwood/orgs", 
+            "received_events_url": "https://api.github.com/users/AndrewEastwood/received_events", 
+            "repos_url": "https://api.github.com/users/AndrewEastwood/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/AndrewEastwood/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/AndrewEastwood/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/AndrewEastwood"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Here's the approach from the other side. Tim made some good points regarding who should be determining uniqueness in #3080. With this setup, collections will never care about `model.id` and bookkeep purely by a customizable `Collection#generateId`. This means models can be in many collections and uniquely identified appropriately across all of them, all without having to alter the data in the model. After all, a model can't know how to distinguish itself from others in a collection as well as the collection can. This is a first draft, but I feel this may be the better way.\r\n\r\nRFC @jashkenas @braddunbar @tgriesser\r\n\r\nRE: #2976, #2985, #3080, #3132", 
+        "closed_at": "2014-06-27T20:39:20Z", 
+        "comments": 16, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3133/comments", 
+        "created_at": "2014-04-23T18:03:22Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3133/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3133", 
+        "id": 32084417, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3133/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3133, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3133.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3133", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3133.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3133"
+        }, 
+        "state": "closed", 
+        "title": "Allow Collections to determine uniqueness, not Models", 
+        "updated_at": "2014-06-30T14:54:47Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3133", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1181237?v=3", 
+            "events_url": "https://api.github.com/users/caseywebdev/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/caseywebdev/followers", 
+            "following_url": "https://api.github.com/users/caseywebdev/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/caseywebdev/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/caseywebdev", 
+            "id": 1181237, 
+            "login": "caseywebdev", 
+            "organizations_url": "https://api.github.com/users/caseywebdev/orgs", 
+            "received_events_url": "https://api.github.com/users/caseywebdev/received_events", 
+            "repos_url": "https://api.github.com/users/caseywebdev/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/caseywebdev/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/caseywebdev/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/caseywebdev"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-03-27T18:32:17Z", 
+        "comments": 0, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3092/comments", 
+        "created_at": "2014-03-27T18:20:51Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3092/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3092", 
+        "id": 30328139, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3092/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3092, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3092.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3092", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3092.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3092"
+        }, 
+        "state": "closed", 
+        "title": "Remove unnecessary checks and variables.", 
+        "updated_at": "2014-03-27T18:32:22Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3092", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-03-24T14:39:11Z", 
+        "comments": 0, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3089/comments", 
+        "created_at": "2014-03-23T21:37:43Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3089/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3089", 
+        "id": 29999005, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3089/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3089, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3089.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3089", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3089.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3089"
+        }, 
+        "state": "closed", 
+        "title": "Fix #3078 - Router#execute receives route name.", 
+        "updated_at": "2014-03-24T14:39:11Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3089", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-03-15T18:32:53Z", 
+        "comments": 3, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3048/comments", 
+        "created_at": "2014-03-06T22:08:42Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3048/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3048", 
+        "id": 28919583, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3048/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3048, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3048.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3048", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3048.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3048"
+        }, 
+        "state": "closed", 
+        "title": "Pass along `textStatus` and `errorThrown`.", 
+        "updated_at": "2014-03-15T18:33:08Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3048", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Also considered updating comment to say \"91%\", but I had self-restraint.", 
+        "closed_at": "2014-02-28T18:59:42Z", 
+        "comments": 7, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3029/comments", 
+        "created_at": "2014-02-28T13:51:51Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3029/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3029", 
+        "id": 28501767, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3029/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3029, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3029.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3029", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3029.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3029"
+        }, 
+        "state": "closed", 
+        "title": "Add new `_.partition`", 
+        "updated_at": "2014-02-28T19:00:04Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3029", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/413237?v=3", 
+            "events_url": "https://api.github.com/users/Crisfole/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/Crisfole/followers", 
+            "following_url": "https://api.github.com/users/Crisfole/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/Crisfole/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/Crisfole", 
+            "id": 413237, 
+            "login": "Crisfole", 
+            "organizations_url": "https://api.github.com/users/Crisfole/orgs", 
+            "received_events_url": "https://api.github.com/users/Crisfole/received_events", 
+            "repos_url": "https://api.github.com/users/Crisfole/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/Crisfole/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/Crisfole/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/Crisfole"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "I'll never remember this otherwise and then I'll be the one who breaks it.  :smiley:", 
+        "closed_at": "2014-02-20T22:59:35Z", 
+        "comments": 0, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3011/comments", 
+        "created_at": "2014-02-20T22:36:28Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3011/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3011", 
+        "id": 28002710, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3011/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3011, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3011.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3011", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3011.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3011"
+        }, 
+        "state": "closed", 
+        "title": "Add a comment about clearInterval.", 
+        "updated_at": "2014-02-23T15:11:54Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3011", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This is a continuation of the discussion in #2959, and focuses on making View easier to extend by users wishing to use non-jQuery libraries. It's similar in plugability to `Backbone.ajax` or other overridable parts of Backbone.\r\n\r\nNative Views and non-jQuery DOM libraries would be able to create a native View implementation by overriding `$`, `make`, `remove`, `setElement`, `delegate`, and `undelegateEvents` (see the [NativeView reference implementation](https://github.com/akre54/Backbone.NativeView)). This preserves the majority of the public contract of View (with the notable exception of `View#$` and `view.$el`), and the public interface of the constructor (including passing options), `delegateEvents`/`undelegateEvents`, `render`, `remove`, and `setElement` would be virtually unchanged. The PR also re-adds `View#make`.\r\n\r\nThe next step would be to remove Backbone.$() calls from History and perhaps extend `View#setElement` and `View#make` to use a common exposed `createElement` utility.\r\n\r\n----\r\n\r\n**Update for folks tuning in late**: The final list of overridable methods is [available on the wiki](https://github.com/jashkenas/backbone/wiki/Using-Backbone-without-jQuery) with instructions for how to use it in your own project.", 
+        "closed_at": "2014-03-16T23:13:18Z", 
+        "comments": 136, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3003/comments", 
+        "created_at": "2014-02-18T22:47:06Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3003/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3003", 
+        "id": 27835424, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3003/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3003, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3003.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3003", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3003.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3003"
+        }, 
+        "state": "closed", 
+        "title": "View hooks for native and non-jQuery libraries", 
+        "updated_at": "2014-09-26T04:41:53Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3003", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3", 
+            "events_url": "https://api.github.com/users/akre54/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/akre54/followers", 
+            "following_url": "https://api.github.com/users/akre54/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/akre54", 
+            "id": 931368, 
+            "login": "akre54", 
+            "organizations_url": "https://api.github.com/users/akre54/orgs", 
+            "received_events_url": "https://api.github.com/users/akre54/received_events", 
+            "repos_url": "https://api.github.com/users/akre54/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/akre54/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/akre54"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "It can be useful, particularly in Marionette apps where you have multiple routers.\r\n", 
+        "closed_at": "2013-04-04T02:19:04Z", 
+        "comments": 9, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/2455/comments", 
+        "created_at": "2013-04-01T22:05:59Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/2455/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/2455", 
+        "id": 12679025, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/2455/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 2455, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/2455.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/2455", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/2455.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/2455"
+        }, 
+        "state": "closed", 
+        "title": "return from Backbone.history.navigate whether a route was matched.", 
+        "updated_at": "2013-04-04T02:19:18Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/2455", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1755752?v=3", 
+            "events_url": "https://api.github.com/users/williamhc/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/williamhc/followers", 
+            "following_url": "https://api.github.com/users/williamhc/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/williamhc/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/williamhc", 
+            "id": 1755752, 
+            "login": "williamhc", 
+            "organizations_url": "https://api.github.com/users/williamhc/orgs", 
+            "received_events_url": "https://api.github.com/users/williamhc/received_events", 
+            "repos_url": "https://api.github.com/users/williamhc/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/williamhc/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/williamhc/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/williamhc"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This patch would allow collections to be reordered (without destroying any existing models). This is useful when response data can only be sorted server-side.", 
+        "closed_at": "2013-04-04T02:30:29Z", 
+        "comments": 39, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/2085/comments", 
+        "created_at": "2013-01-07T17:49:55Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/2085/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/2085", 
+        "id": 9741837, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/2085/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 2085, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/2085.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/2085", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/2085.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/2085"
+        }, 
+        "state": "closed", 
+        "title": "Fix #2068 - `set` respects input order in absence of comparator", 
+        "updated_at": "2014-07-19T05:19:07Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/2085", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1181237?v=3", 
+            "events_url": "https://api.github.com/users/caseywebdev/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/caseywebdev/followers", 
+            "following_url": "https://api.github.com/users/caseywebdev/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/caseywebdev/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/caseywebdev", 
+            "id": 1181237, 
+            "login": "caseywebdev", 
+            "organizations_url": "https://api.github.com/users/caseywebdev/orgs", 
+            "received_events_url": "https://api.github.com/users/caseywebdev/received_events", 
+            "repos_url": "https://api.github.com/users/caseywebdev/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/caseywebdev/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/caseywebdev/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/caseywebdev"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "I created a PR a few days ago about this and (A) the PR became out of sync with my repo and (B) I feel I explained my rationale poorly which lead to its abrupt close. So I'm sorry for the poor re-issue etiquette, but I really think this should be at least discussed.\n\n`reset` definitely has it's place as a quick way to completely wipe a collection and start over with new models. Often times though, I'd like to update a collection without obliterating my current models but rather firing off helpful `add`/`change`/`remove` events. This allows me to poll the server with `fetch` and effectively listen for these events without fear of having to recreate any models (wasteful). Here is an example:\n\n```js\nvar UsersView = Backbone.View.extend({\n  delegateEvents: function () {\n    Backbone.View.prototype.delegateEvents.apply(this, arguments);\n    this.collection.on('add', this.addUser, this);\n    this.pollInterval = setInterval(_.bind(this.poll, this), 10000);\n  },\n  \n  undelegateEvents: function () {\n    clearInterval(this.pollInterval);\n    Backbone.View.prototype.delegateEvents.apply(this, arguments);\n  },\n  \n  addUser: function (user) {\n    var userView = new UserView({model: user});\n    this.$el.append((userView).el);\n  },\n  \n  poll: function () {\n    // Ideally `update` is the default action, but that would be a\n    // breaking change so the options object is used for now.\n    this.collection.fetch({update: true});\n  }\n});\n\nvar UserView = Backbone.View.extend({\n  initialize: function() {\n    // Can be fine tuned thanks to `change:attr`, but in general...\n    this.model.on('change', this.render, this);\n    this.model.on('remove', this.remove, this);\n  }\n});\n\nvar users = new Backbone.Collection();\nusers.url = '/users';\nvar usersView = new UsersView({collection: users});\n$('body').append(usersView.el);\nusersView.poll();\n```\n\nThis is not a complete example, but you can see what I'm getting at. The ability to rig a view (and subviews) this way makes for a clean, clear intent as to what should happen when an `add`/`change`/`remove` happens. The only alternative right now is a not-so-pretty `reset` dance that just doesn't use Backbone.Events to their potential.\n\nAgain, I apologize for the duplicate but I would really appreciate some input especially before the release is cut.", 
+        "closed_at": "2012-12-10T20:59:11Z", 
+        "comments": 30, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/1873/comments", 
+        "created_at": "2012-12-05T19:17:20Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/1873/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/1873", 
+        "id": 9030205, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/1873/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 1873, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/1873.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/1873", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/1873.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/1873"
+        }, 
+        "state": "closed", 
+        "title": "Collection#update to reduce waste", 
+        "updated_at": "2012-12-11T02:35:52Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/1873", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1181237?v=3", 
+            "events_url": "https://api.github.com/users/caseywebdev/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/caseywebdev/followers", 
+            "following_url": "https://api.github.com/users/caseywebdev/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/caseywebdev/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/caseywebdev", 
+            "id": 1181237, 
+            "login": "caseywebdev", 
+            "organizations_url": "https://api.github.com/users/caseywebdev/orgs", 
+            "received_events_url": "https://api.github.com/users/caseywebdev/received_events", 
+            "repos_url": "https://api.github.com/users/caseywebdev/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/caseywebdev/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/caseywebdev/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/caseywebdev"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This is a really simple change that will allow users to customise the cid prefix to prevent clashes with backend model ids and resolve issues like https://github.com/jashkenas/backbone/pull/3356 and https://github.com/jashkenas/backbone/issues/2920.\r\n\r\nI know that this is an edge case but given the small amount of code change required I hope it won't be a problem.", 
+        "closed_at": "2015-02-12T17:23:12Z", 
+        "comments": 4, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3490/comments", 
+        "created_at": "2015-02-11T21:42:40Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3490/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3490", 
+        "id": 57381788, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3490/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3490, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3490.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3490", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3490.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3490"
+        }, 
+        "state": "closed", 
+        "title": "Customise model cid prefix", 
+        "updated_at": "2015-02-12T17:23:12Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3490", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/734823?v=3", 
+            "events_url": "https://api.github.com/users/yousefcisco/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/yousefcisco/followers", 
+            "following_url": "https://api.github.com/users/yousefcisco/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/yousefcisco/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/yousefcisco", 
+            "id": 734823, 
+            "login": "yousefcisco", 
+            "organizations_url": "https://api.github.com/users/yousefcisco/orgs", 
+            "received_events_url": "https://api.github.com/users/yousefcisco/received_events", 
+            "repos_url": "https://api.github.com/users/yousefcisco/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/yousefcisco/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/yousefcisco/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/yousefcisco"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2015-02-10T15:47:20Z", 
+        "comments": 1, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3485/comments", 
+        "created_at": "2015-02-10T05:31:59Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3485/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3485", 
+        "id": 57132803, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3485/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3485, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3485.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3485", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3485.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3485"
+        }, 
+        "state": "closed", 
+        "title": "[minor] Update QUnit to v1.7.1", 
+        "updated_at": "2015-02-10T15:47:22Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3485", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/3475472?v=3", 
+            "events_url": "https://api.github.com/users/megawac/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/megawac/followers", 
+            "following_url": "https://api.github.com/users/megawac/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/megawac/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/megawac", 
+            "id": 3475472, 
+            "login": "megawac", 
+            "organizations_url": "https://api.github.com/users/megawac/orgs", 
+            "received_events_url": "https://api.github.com/users/megawac/received_events", 
+            "repos_url": "https://api.github.com/users/megawac/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/megawac/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/megawac/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/megawac"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "To be clear, I think the trigger with object behavior is silly. But I needed tests to ensure that my [`eventsApi` refactor](https://github.com/jridgewell/backbone/tree/eventsApi-refactor) kept the current functionality.\r\n\r\nRe: https://github.com/jashkenas/backbone/issues/3460", 
+        "closed_at": "2015-01-28T20:42:51Z", 
+        "comments": 0, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3465/comments", 
+        "created_at": "2015-01-25T18:41:13Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3465/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3465", 
+        "id": 55424653, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3465/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3465, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3465.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3465", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3465.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3465"
+        }, 
+        "state": "closed", 
+        "title": "Test trigger arguments behavior", 
+        "updated_at": "2015-01-28T20:42:55Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3465", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3", 
+            "events_url": "https://api.github.com/users/jridgewell/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/jridgewell/followers", 
+            "following_url": "https://api.github.com/users/jridgewell/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/jridgewell", 
+            "id": 112982, 
+            "login": "jridgewell", 
+            "organizations_url": "https://api.github.com/users/jridgewell/orgs", 
+            "received_events_url": "https://api.github.com/users/jridgewell/received_events", 
+            "repos_url": "https://api.github.com/users/jridgewell/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/jridgewell"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-11-12T20:20:29Z", 
+        "comments": 3, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3331/comments", 
+        "created_at": "2014-10-03T04:21:39Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3331/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3331", 
+        "id": 44766128, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3331/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3331, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3331.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3331", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3331.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3331"
+        }, 
+        "state": "closed", 
+        "title": "Use matches in .where", 
+        "updated_at": "2014-11-16T21:11:05Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3331", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/3475472?v=3", 
+            "events_url": "https://api.github.com/users/megawac/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/megawac/followers", 
+            "following_url": "https://api.github.com/users/megawac/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/megawac/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/megawac", 
+            "id": 3475472, 
+            "login": "megawac", 
+            "organizations_url": "https://api.github.com/users/megawac/orgs", 
+            "received_events_url": "https://api.github.com/users/megawac/received_events", 
+            "repos_url": "https://api.github.com/users/megawac/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/megawac/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/megawac/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/megawac"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Discussion \u2192 #3070", 
+        "closed_at": "2014-12-15T17:15:33Z", 
+        "comments": 10, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3307/comments", 
+        "created_at": "2014-09-11T17:12:04Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3307/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3307", 
+        "id": 42548209, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3307/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3307, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3307.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3307", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3307.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3307"
+        }, 
+        "state": "closed", 
+        "title": "Add `Model::matches` as special-cased proxy to `_.matches`", 
+        "updated_at": "2015-02-11T19:56:03Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3307", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/18397?v=3", 
+            "events_url": "https://api.github.com/users/gf3/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/gf3/followers", 
+            "following_url": "https://api.github.com/users/gf3/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/gf3/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/gf3", 
+            "id": 18397, 
+            "login": "gf3", 
+            "organizations_url": "https://api.github.com/users/gf3/orgs", 
+            "received_events_url": "https://api.github.com/users/gf3/received_events", 
+            "repos_url": "https://api.github.com/users/gf3/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/gf3/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/gf3/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/gf3"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-09-23T19:37:45Z", 
+        "comments": 24, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3301/comments", 
+        "created_at": "2014-09-09T13:47:55Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3301/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3301", 
+        "id": 42307827, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3301/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3301, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3301.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3301", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3301.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3301"
+        }, 
+        "state": "closed", 
+        "title": "Enhancing Model with isEmpty function", 
+        "updated_at": "2014-09-23T20:32:38Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3301", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1483306?v=3", 
+            "events_url": "https://api.github.com/users/AndrewEastwood/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/AndrewEastwood/followers", 
+            "following_url": "https://api.github.com/users/AndrewEastwood/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/AndrewEastwood/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/AndrewEastwood", 
+            "id": 1483306, 
+            "login": "AndrewEastwood", 
+            "organizations_url": "https://api.github.com/users/AndrewEastwood/orgs", 
+            "received_events_url": "https://api.github.com/users/AndrewEastwood/received_events", 
+            "repos_url": "https://api.github.com/users/AndrewEastwood/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/AndrewEastwood/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/AndrewEastwood/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/AndrewEastwood"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Here's the approach from the other side. Tim made some good points regarding who should be determining uniqueness in #3080. With this setup, collections will never care about `model.id` and bookkeep purely by a customizable `Collection#generateId`. This means models can be in many collections and uniquely identified appropriately across all of them, all without having to alter the data in the model. After all, a model can't know how to distinguish itself from others in a collection as well as the collection can. This is a first draft, but I feel this may be the better way.\r\n\r\nRFC @jashkenas @braddunbar @tgriesser\r\n\r\nRE: #2976, #2985, #3080, #3132", 
+        "closed_at": "2014-06-27T20:39:20Z", 
+        "comments": 16, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3133/comments", 
+        "created_at": "2014-04-23T18:03:22Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3133/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3133", 
+        "id": 32084417, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3133/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3133, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3133.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3133", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3133.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3133"
+        }, 
+        "state": "closed", 
+        "title": "Allow Collections to determine uniqueness, not Models", 
+        "updated_at": "2014-06-30T14:54:47Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3133", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1181237?v=3", 
+            "events_url": "https://api.github.com/users/caseywebdev/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/caseywebdev/followers", 
+            "following_url": "https://api.github.com/users/caseywebdev/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/caseywebdev/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/caseywebdev", 
+            "id": 1181237, 
+            "login": "caseywebdev", 
+            "organizations_url": "https://api.github.com/users/caseywebdev/orgs", 
+            "received_events_url": "https://api.github.com/users/caseywebdev/received_events", 
+            "repos_url": "https://api.github.com/users/caseywebdev/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/caseywebdev/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/caseywebdev/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/caseywebdev"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-03-27T18:32:17Z", 
+        "comments": 0, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3092/comments", 
+        "created_at": "2014-03-27T18:20:51Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3092/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3092", 
+        "id": 30328139, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3092/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3092, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3092.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3092", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3092.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3092"
+        }, 
+        "state": "closed", 
+        "title": "Remove unnecessary checks and variables.", 
+        "updated_at": "2014-03-27T18:32:22Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3092", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-03-24T14:39:11Z", 
+        "comments": 0, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3089/comments", 
+        "created_at": "2014-03-23T21:37:43Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3089/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3089", 
+        "id": 29999005, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3089/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3089, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3089.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3089", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3089.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3089"
+        }, 
+        "state": "closed", 
+        "title": "Fix #3078 - Router#execute receives route name.", 
+        "updated_at": "2014-03-24T14:39:11Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3089", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2014-03-15T18:32:53Z", 
+        "comments": 3, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3048/comments", 
+        "created_at": "2014-03-06T22:08:42Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3048/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3048", 
+        "id": 28919583, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3048/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3048, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3048.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3048", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3048.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3048"
+        }, 
+        "state": "closed", 
+        "title": "Pass along `textStatus` and `errorThrown`.", 
+        "updated_at": "2014-03-15T18:33:08Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3048", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Also considered updating comment to say \"91%\", but I had self-restraint.", 
+        "closed_at": "2014-02-28T18:59:42Z", 
+        "comments": 7, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3029/comments", 
+        "created_at": "2014-02-28T13:51:51Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3029/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3029", 
+        "id": 28501767, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3029/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3029, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3029.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3029", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3029.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3029"
+        }, 
+        "state": "closed", 
+        "title": "Add new `_.partition`", 
+        "updated_at": "2014-02-28T19:00:04Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3029", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/413237?v=3", 
+            "events_url": "https://api.github.com/users/Crisfole/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/Crisfole/followers", 
+            "following_url": "https://api.github.com/users/Crisfole/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/Crisfole/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/Crisfole", 
+            "id": 413237, 
+            "login": "Crisfole", 
+            "organizations_url": "https://api.github.com/users/Crisfole/orgs", 
+            "received_events_url": "https://api.github.com/users/Crisfole/received_events", 
+            "repos_url": "https://api.github.com/users/Crisfole/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/Crisfole/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/Crisfole/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/Crisfole"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "I'll never remember this otherwise and then I'll be the one who breaks it.  :smiley:", 
+        "closed_at": "2014-02-20T22:59:35Z", 
+        "comments": 0, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3011/comments", 
+        "created_at": "2014-02-20T22:36:28Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3011/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3011", 
+        "id": 28002710, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3011/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3011, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3011.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3011", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3011.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3011"
+        }, 
+        "state": "closed", 
+        "title": "Add a comment about clearInterval.", 
+        "updated_at": "2014-02-23T15:11:54Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3011", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This is a continuation of the discussion in #2959, and focuses on making View easier to extend by users wishing to use non-jQuery libraries. It's similar in plugability to `Backbone.ajax` or other overridable parts of Backbone.\r\n\r\nNative Views and non-jQuery DOM libraries would be able to create a native View implementation by overriding `$`, `make`, `remove`, `setElement`, `delegate`, and `undelegateEvents` (see the [NativeView reference implementation](https://github.com/akre54/Backbone.NativeView)). This preserves the majority of the public contract of View (with the notable exception of `View#$` and `view.$el`), and the public interface of the constructor (including passing options), `delegateEvents`/`undelegateEvents`, `render`, `remove`, and `setElement` would be virtually unchanged. The PR also re-adds `View#make`.\r\n\r\nThe next step would be to remove Backbone.$() calls from History and perhaps extend `View#setElement` and `View#make` to use a common exposed `createElement` utility.\r\n\r\n----\r\n\r\n**Update for folks tuning in late**: The final list of overridable methods is [available on the wiki](https://github.com/jashkenas/backbone/wiki/Using-Backbone-without-jQuery) with instructions for how to use it in your own project.", 
+        "closed_at": "2014-03-16T23:13:18Z", 
+        "comments": 136, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/3003/comments", 
+        "created_at": "2014-02-18T22:47:06Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/3003/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/3003", 
+        "id": 27835424, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/3003/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 3003, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/3003.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/3003", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/3003.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/3003"
+        }, 
+        "state": "closed", 
+        "title": "View hooks for native and non-jQuery libraries", 
+        "updated_at": "2014-09-26T04:41:53Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/3003", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3", 
+            "events_url": "https://api.github.com/users/akre54/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/akre54/followers", 
+            "following_url": "https://api.github.com/users/akre54/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/akre54", 
+            "id": 931368, 
+            "login": "akre54", 
+            "organizations_url": "https://api.github.com/users/akre54/orgs", 
+            "received_events_url": "https://api.github.com/users/akre54/received_events", 
+            "repos_url": "https://api.github.com/users/akre54/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/akre54/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/akre54"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "It can be useful, particularly in Marionette apps where you have multiple routers.\r\n", 
+        "closed_at": "2013-04-04T02:19:04Z", 
+        "comments": 9, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/2455/comments", 
+        "created_at": "2013-04-01T22:05:59Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/2455/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/2455", 
+        "id": 12679025, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/2455/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 2455, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/2455.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/2455", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/2455.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/2455"
+        }, 
+        "state": "closed", 
+        "title": "return from Backbone.history.navigate whether a route was matched.", 
+        "updated_at": "2013-04-04T02:19:18Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/2455", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1755752?v=3", 
+            "events_url": "https://api.github.com/users/williamhc/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/williamhc/followers", 
+            "following_url": "https://api.github.com/users/williamhc/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/williamhc/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/williamhc", 
+            "id": 1755752, 
+            "login": "williamhc", 
+            "organizations_url": "https://api.github.com/users/williamhc/orgs", 
+            "received_events_url": "https://api.github.com/users/williamhc/received_events", 
+            "repos_url": "https://api.github.com/users/williamhc/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/williamhc/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/williamhc/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/williamhc"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This patch would allow collections to be reordered (without destroying any existing models). This is useful when response data can only be sorted server-side.", 
+        "closed_at": "2013-04-04T02:30:29Z", 
+        "comments": 39, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/2085/comments", 
+        "created_at": "2013-01-07T17:49:55Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/2085/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/2085", 
+        "id": 9741837, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/2085/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 2085, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/2085.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/2085", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/2085.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/2085"
+        }, 
+        "state": "closed", 
+        "title": "Fix #2068 - `set` respects input order in absence of comparator", 
+        "updated_at": "2014-07-19T05:19:07Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/2085", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1181237?v=3", 
+            "events_url": "https://api.github.com/users/caseywebdev/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/caseywebdev/followers", 
+            "following_url": "https://api.github.com/users/caseywebdev/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/caseywebdev/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/caseywebdev", 
+            "id": 1181237, 
+            "login": "caseywebdev", 
+            "organizations_url": "https://api.github.com/users/caseywebdev/orgs", 
+            "received_events_url": "https://api.github.com/users/caseywebdev/received_events", 
+            "repos_url": "https://api.github.com/users/caseywebdev/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/caseywebdev/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/caseywebdev/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/caseywebdev"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "I created a PR a few days ago about this and (A) the PR became out of sync with my repo and (B) I feel I explained my rationale poorly which lead to its abrupt close. So I'm sorry for the poor re-issue etiquette, but I really think this should be at least discussed.\n\n`reset` definitely has it's place as a quick way to completely wipe a collection and start over with new models. Often times though, I'd like to update a collection without obliterating my current models but rather firing off helpful `add`/`change`/`remove` events. This allows me to poll the server with `fetch` and effectively listen for these events without fear of having to recreate any models (wasteful). Here is an example:\n\n```js\nvar UsersView = Backbone.View.extend({\n  delegateEvents: function () {\n    Backbone.View.prototype.delegateEvents.apply(this, arguments);\n    this.collection.on('add', this.addUser, this);\n    this.pollInterval = setInterval(_.bind(this.poll, this), 10000);\n  },\n  \n  undelegateEvents: function () {\n    clearInterval(this.pollInterval);\n    Backbone.View.prototype.delegateEvents.apply(this, arguments);\n  },\n  \n  addUser: function (user) {\n    var userView = new UserView({model: user});\n    this.$el.append((userView).el);\n  },\n  \n  poll: function () {\n    // Ideally `update` is the default action, but that would be a\n    // breaking change so the options object is used for now.\n    this.collection.fetch({update: true});\n  }\n});\n\nvar UserView = Backbone.View.extend({\n  initialize: function() {\n    // Can be fine tuned thanks to `change:attr`, but in general...\n    this.model.on('change', this.render, this);\n    this.model.on('remove', this.remove, this);\n  }\n});\n\nvar users = new Backbone.Collection();\nusers.url = '/users';\nvar usersView = new UsersView({collection: users});\n$('body').append(usersView.el);\nusersView.poll();\n```\n\nThis is not a complete example, but you can see what I'm getting at. The ability to rig a view (and subviews) this way makes for a clean, clear intent as to what should happen when an `add`/`change`/`remove` happens. The only alternative right now is a not-so-pretty `reset` dance that just doesn't use Backbone.Events to their potential.\n\nAgain, I apologize for the duplicate but I would really appreciate some input especially before the release is cut.", 
+        "closed_at": "2012-12-10T20:59:11Z", 
+        "comments": 30, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/1873/comments", 
+        "created_at": "2012-12-05T19:17:20Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/1873/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/1873", 
+        "id": 9030205, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/1873/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 1873, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/1873.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/1873", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/1873.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/1873"
+        }, 
+        "state": "closed", 
+        "title": "Collection#update to reduce waste", 
+        "updated_at": "2012-12-11T02:35:52Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/1873", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1181237?v=3", 
+            "events_url": "https://api.github.com/users/caseywebdev/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/caseywebdev/followers", 
+            "following_url": "https://api.github.com/users/caseywebdev/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/caseywebdev/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/caseywebdev", 
+            "id": 1181237, 
+            "login": "caseywebdev", 
+            "organizations_url": "https://api.github.com/users/caseywebdev/orgs", 
+            "received_events_url": "https://api.github.com/users/caseywebdev/received_events", 
+            "repos_url": "https://api.github.com/users/caseywebdev/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/caseywebdev/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/caseywebdev/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/caseywebdev"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Allows the user to pass a view's `events` object when creating a new view, rather than requiring the events always be pre-defined with `Backbone.View.extend`\n\nIncludes a test of the new functionality.", 
+        "closed_at": "2012-11-19T20:06:26Z", 
+        "comments": 4, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/1826/comments", 
+        "created_at": "2012-11-16T19:28:22Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/1826/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/1826", 
+        "id": 8429336, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/1826/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 1826, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/1826.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/1826", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/1826.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/1826"
+        }, 
+        "state": "closed", 
+        "title": "Allowing events to be passed in view's options", 
+        "updated_at": "2012-11-19T20:06:26Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/1826", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/154748?v=3", 
+            "events_url": "https://api.github.com/users/tgriesser/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/tgriesser/followers", 
+            "following_url": "https://api.github.com/users/tgriesser/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/tgriesser/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/tgriesser", 
+            "id": 154748, 
+            "login": "tgriesser", 
+            "organizations_url": "https://api.github.com/users/tgriesser/orgs", 
+            "received_events_url": "https://api.github.com/users/tgriesser/received_events", 
+            "repos_url": "https://api.github.com/users/tgriesser/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/tgriesser/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/tgriesser/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/tgriesser"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "I find this to be a rather elegant way to include the view element in a template (a much requested feature).\r\n\r\n```js\r\nvar View = Backbone.View.extend({\r\n  el: _.template(\"<a class='\u2026'><%- this.model.get('name') %></a>\")\r\n});\r\n```", 
+        "closed_at": "2012-10-02T03:18:58Z", 
+        "comments": 2, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/1693/comments", 
+        "created_at": "2012-10-01T21:05:11Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/1693/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/1693", 
+        "id": 7276137, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/1693/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 1693, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/1693.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/1693", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/1693.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/1693"
+        }, 
+        "state": "closed", 
+        "title": "Allow view.el to be provided as a function.", 
+        "updated_at": "2012-10-02T03:18:58Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/1693", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "from the ideas in #1508", 
+        "closed_at": "2012-10-03T02:43:42Z", 
+        "comments": 10, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/1509/comments", 
+        "created_at": "2012-07-27T01:59:15Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/1509/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/1509", 
+        "id": 5868501, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/1509/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 1509, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/1509.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/1509", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/1509.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/1509"
+        }, 
+        "state": "closed", 
+        "title": "added optional groups to route syntax, with tests", 
+        "updated_at": "2012-12-13T04:51:20Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/1509", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/311752?v=3", 
+            "events_url": "https://api.github.com/users/ianstormtaylor/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/ianstormtaylor/followers", 
+            "following_url": "https://api.github.com/users/ianstormtaylor/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/ianstormtaylor/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/ianstormtaylor", 
+            "id": 311752, 
+            "login": "ianstormtaylor", 
+            "organizations_url": "https://api.github.com/users/ianstormtaylor/orgs", 
+            "received_events_url": "https://api.github.com/users/ianstormtaylor/received_events", 
+            "repos_url": "https://api.github.com/users/ianstormtaylor/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/ianstormtaylor/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/ianstormtaylor/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/ianstormtaylor"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "The current behaviour of `Backbone.Collection.add` is to discard models that have matching ids. This makes it difficult to fetch and insert a set of models that may contain both new and updated models. Maybe there's a different way to perform this task, but it wasn't obvious to me.\r\n\r\nThis patch adds a merge flag to `Backbone.Collection.add`, which causes models with identical ids be passed as arguments to `Backbone.Model.set` instead of being discarded. In the case of true duplicates, the current behaviour is preserved (no change to the collection, no additional events fired), but updates to models retain the object in the collection, but update its attributes (firing the corresponding change events, unless silent).", 
+        "closed_at": "2012-04-23T20:58:03Z", 
+        "comments": 2, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/1220/comments", 
+        "created_at": "2012-04-13T14:36:23Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/1220/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/1220", 
+        "id": 4104233, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/1220/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 1220, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/1220.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/1220", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/1220.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/1220"
+        }, 
+        "state": "closed", 
+        "title": "Optionally merging updated model state on collection add.", 
+        "updated_at": "2014-04-30T15:46:24Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/1220", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1087098?v=3", 
+            "events_url": "https://api.github.com/users/folded/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/folded/followers", 
+            "following_url": "https://api.github.com/users/folded/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/folded/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/folded", 
+            "id": 1087098, 
+            "login": "folded", 
+            "organizations_url": "https://api.github.com/users/folded/orgs", 
+            "received_events_url": "https://api.github.com/users/folded/received_events", 
+            "repos_url": "https://api.github.com/users/folded/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/folded/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/folded/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/folded"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "", 
+        "closed_at": "2012-03-16T20:39:32Z", 
+        "comments": 4, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/1071/comments", 
+        "created_at": "2012-03-06T13:15:24Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/1071/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/1071", 
+        "id": 3523885, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/1071/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 1071, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/1071.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/1071", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/1071.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/1071"
+        }, 
+        "state": "closed", 
+        "title": "Documentation for set - validation is skipped when passing {silent: true}", 
+        "updated_at": "2012-03-16T20:39:32Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/1071", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/29137?v=3", 
+            "events_url": "https://api.github.com/users/dira/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/dira/followers", 
+            "following_url": "https://api.github.com/users/dira/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/dira/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/dira", 
+            "id": 29137, 
+            "login": "dira", 
+            "organizations_url": "https://api.github.com/users/dira/orgs", 
+            "received_events_url": "https://api.github.com/users/dira/received_events", 
+            "repos_url": "https://api.github.com/users/dira/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/dira/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/dira/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/dira"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "After a [comment](https://github.com/documentcloud/backbone/pull/624#issuecomment-2616598) from @kmalakoff in #624, I started thinking about the behavior of events being bound or unbound during a call to trigger and how Backbone's implementation is different than jQuery's.\r\n\r\njQuery appears to freeze the callback list when the event is fired:\r\n\r\n    $({}).bind('event', function(){\r\n      $(this).bind('event', handler);\r\n    })\r\n    .trigger('event') // doesn't call handler\r\n    .unbind()\r\n    .bind('event', function(){\r\n      $(this).unbind('event', handler);\r\n    })\r\n    .bind('event', handler)\r\n    .trigger('event');  // calls handler\r\n\r\nBackbone, on the other hand, alters the callback list during trigger:\r\n\r\n    model.bind('event', function(){\r\n      model.bind('event', handler);\r\n    })\r\n    .trigger('event') // calls handler\r\n    .unbind()\r\n    .bind('event', function(){\r\n      model.unbind('event', handler);\r\n    })\r\n    .bind('event', handler)\r\n    .trigger('event');  // doesn't call handler\r\n\r\nI'm not sure which way is correct, but I think that freezing the callback list is simpler and more intuitive.  By sharing data between multiple versions of a callback list, we can achieve this while [preserving performance characteristics](http://jsperf.com/backbone-events-linked-list/5).", 
+        "closed_at": "2012-01-13T16:03:04Z", 
+        "comments": 6, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/723/comments", 
+        "created_at": "2011-11-05T16:28:19Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/723/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/723", 
+        "id": 2152577, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/723/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 723, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/723.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/723", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/723.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/723"
+        }, 
+        "state": "closed", 
+        "title": "(un)bind does not alter callback list during trigger", 
+        "updated_at": "2012-01-13T16:17:31Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/723", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/11674?v=3", 
+            "events_url": "https://api.github.com/users/braddunbar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/braddunbar/followers", 
+            "following_url": "https://api.github.com/users/braddunbar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/braddunbar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/braddunbar", 
+            "id": 11674, 
+            "login": "braddunbar", 
+            "organizations_url": "https://api.github.com/users/braddunbar/orgs", 
+            "received_events_url": "https://api.github.com/users/braddunbar/received_events", 
+            "repos_url": "https://api.github.com/users/braddunbar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/braddunbar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/braddunbar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/braddunbar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This fork has the new website in it, along with a few new items added to the .gitignore.\r\n\r\nIn this fork, gh-pages branch no longer mirrors the master branch.\r\n\r\nThe master repo could however mirror the _site directory generated by jekyll (github pages uses jekyll).\r\n\r\nAll the pages for this website can still run offline like the old website, but they need to be jekyll'd first.\r\n\r\nThe convention is to .gitignore _site, but I have not done so in this case so you can see what _site generates: https://github.com/boazsender/backbone/tree/gh-pages/_site\r\n\r\nIn order to merge in these changes and not cause inconsistencies between the docs in master and the docs in gh-pages, I recommend copying the contents of _site to master.", 
+        "closed_at": "2012-01-06T16:35:48Z", 
+        "comments": 12, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/706/comments", 
+        "created_at": "2011-10-30T20:48:04Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/706/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/706", 
+        "id": 2092125, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/706/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 706, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/706.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/706", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/706.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/706"
+        }, 
+        "state": "closed", 
+        "title": "New Website", 
+        "updated_at": "2012-01-06T16:35:48Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/706", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/122117?v=3", 
+            "events_url": "https://api.github.com/users/boazsender/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/boazsender/followers", 
+            "following_url": "https://api.github.com/users/boazsender/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/boazsender/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/boazsender", 
+            "id": 122117, 
+            "login": "boazsender", 
+            "organizations_url": "https://api.github.com/users/boazsender/orgs", 
+            "received_events_url": "https://api.github.com/users/boazsender/received_events", 
+            "repos_url": "https://api.github.com/users/boazsender/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/boazsender/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/boazsender/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/boazsender"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Ender's jeesh passes all tests for backbone integration. And using them together is super easy... from the command line you just run:\r\n\r\n    ender build jeesh backbone\r\n\r\nThe only change in backbone is to look for \"ender\" on root. I also added a test file which is essentially a clone of zeptos.", 
+        "closed_at": "2011-08-19T12:21:52Z", 
+        "comments": 18, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/572/comments", 
+        "created_at": "2011-08-18T23:45:46Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/572/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/572", 
+        "id": 1436351, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/572/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 572, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/572.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/572", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/572.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/572"
+        }, 
+        "state": "closed", 
+        "title": "Add support for Ender", 
+        "updated_at": "2011-09-21T14:42:06Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/572", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/169705?v=3", 
+            "events_url": "https://api.github.com/users/fat/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/fat/followers", 
+            "following_url": "https://api.github.com/users/fat/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/fat/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/fat", 
+            "id": 169705, 
+            "login": "fat", 
+            "organizations_url": "https://api.github.com/users/fat/orgs", 
+            "received_events_url": "https://api.github.com/users/fat/received_events", 
+            "repos_url": "https://api.github.com/users/fat/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/fat/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/fat/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/fat"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Please, consider applying.\r\nTIA,\r\n--Vladimir", 
+        "closed_at": "2011-04-18T13:35:03Z", 
+        "comments": 12, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/322/comments", 
+        "created_at": "2011-04-15T17:25:50Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/322/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/322", 
+        "id": 774972, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/322/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 322, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/322.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/322", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/322.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/322"
+        }, 
+        "state": "closed", 
+        "title": "support for ender.js", 
+        "updated_at": "2012-01-06T00:26:05Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/322", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/211335?v=3", 
+            "events_url": "https://api.github.com/users/dvv/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/dvv/followers", 
+            "following_url": "https://api.github.com/users/dvv/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/dvv/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/dvv", 
+            "id": 211335, 
+            "login": "dvv", 
+            "organizations_url": "https://api.github.com/users/dvv/orgs", 
+            "received_events_url": "https://api.github.com/users/dvv/received_events", 
+            "repos_url": "https://api.github.com/users/dvv/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/dvv/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/dvv/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/dvv"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This is simple feature and nice to have for Views to be able better control produced html markup.", 
+        "closed_at": "2011-02-08T05:11:06Z", 
+        "comments": 2, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/179/comments", 
+        "created_at": "2011-01-11T05:08:20Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/179/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/179", 
+        "id": 519027, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/179/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 179, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/179.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/179", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/179.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/179"
+        }, 
+        "state": "closed", 
+        "title": "Add ability to define View's element attributes", 
+        "updated_at": "2011-02-07T21:15:44Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/179", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/361630?v=3", 
+            "events_url": "https://api.github.com/users/hippich/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/hippich/followers", 
+            "following_url": "https://api.github.com/users/hippich/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/hippich/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/hippich", 
+            "id": 361630, 
+            "login": "hippich", 
+            "organizations_url": "https://api.github.com/users/hippich/orgs", 
+            "received_events_url": "https://api.github.com/users/hippich/received_events", 
+            "repos_url": "https://api.github.com/users/hippich/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/hippich/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/hippich/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/hippich"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This patch adds support for specifying `el` as a string in `Backbone.View` subclasses, so that you can more easily defer element querying to the time of instantiation rather than delcaration.\r\n\r\nIf an element can't be found from the given string, `_ensureElement` falls back to calling `make`. Not sure if that's the right thing to do here. It might be better to raise an exception instead.", 
+        "closed_at": "2010-12-18T02:56:26Z", 
+        "comments": 1, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/149/comments", 
+        "created_at": "2010-12-17T18:39:13Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/149/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/149", 
+        "id": 480621, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/149/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 149, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/149.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/149", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/149.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/149"
+        }, 
+        "state": "closed", 
+        "title": "View#el can be a string", 
+        "updated_at": "2010-12-17T18:57:51Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/149", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/2603?v=3", 
+            "events_url": "https://api.github.com/users/sstephenson/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/sstephenson/followers", 
+            "following_url": "https://api.github.com/users/sstephenson/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/sstephenson/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/sstephenson", 
+            "id": 2603, 
+            "login": "sstephenson", 
+            "organizations_url": "https://api.github.com/users/sstephenson/orgs", 
+            "received_events_url": "https://api.github.com/users/sstephenson/received_events", 
+            "repos_url": "https://api.github.com/users/sstephenson/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/sstephenson/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/sstephenson/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/sstephenson"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "This patch makes it possible to have more than one view listening for events on the same element. For example, you may want to have separate view classes for different behaviors whose events delegate to listeners on `document.body`.", 
+        "closed_at": "2010-12-13T22:41:01Z", 
+        "comments": 1, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/135/comments", 
+        "created_at": "2010-12-12T06:00:02Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/135/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/135", 
+        "id": 470032, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/135/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 135, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/135.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/135", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/135.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/135"
+        }, 
+        "state": "closed", 
+        "title": "Multiple views per element", 
+        "updated_at": "2010-12-13T14:42:16Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/135", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/2603?v=3", 
+            "events_url": "https://api.github.com/users/sstephenson/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/sstephenson/followers", 
+            "following_url": "https://api.github.com/users/sstephenson/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/sstephenson/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/sstephenson", 
+            "id": 2603, 
+            "login": "sstephenson", 
+            "organizations_url": "https://api.github.com/users/sstephenson/orgs", 
+            "received_events_url": "https://api.github.com/users/sstephenson/received_events", 
+            "repos_url": "https://api.github.com/users/sstephenson/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/sstephenson/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/sstephenson/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/sstephenson"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Adds an attribute tester (similar to Ruby's `model.foo?` methods).\r\n\r\nFor example:\r\n\r\n    modelset({'foo': ''})\r\n    model.is(\"foo\") === false\r\n    \r\n    modelset({'foo': 'Yes'})\r\n    model.is(\"foo\") === true\r\n\r\nIncludes tests, docs.\r\n", 
+        "closed_at": "2010-12-09T01:23:39Z", 
+        "comments": 2, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/123/comments", 
+        "created_at": "2010-12-07T07:50:14Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/123/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/123", 
+        "id": 460069, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/123/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 123, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/123.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/123", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/123.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/123"
+        }, 
+        "state": "closed", 
+        "title": "Implement model.is() attr test", 
+        "updated_at": "2010-12-08T17:27:47Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/123", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/182?v=3", 
+            "events_url": "https://api.github.com/users/mtodd/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/mtodd/followers", 
+            "following_url": "https://api.github.com/users/mtodd/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/mtodd/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/mtodd", 
+            "id": 182, 
+            "login": "mtodd", 
+            "organizations_url": "https://api.github.com/users/mtodd/orgs", 
+            "received_events_url": "https://api.github.com/users/mtodd/received_events", 
+            "repos_url": "https://api.github.com/users/mtodd/repos", 
+            "site_admin": true, 
+            "starred_url": "https://api.github.com/users/mtodd/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/mtodd/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/mtodd"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "I've added an append option flag to the Collection.fetch() method. \r\n\r\nWhen set, rather than doing a Collection.refresh() with the server's response, it will do a Collection.add().\r\n\r\nThis fits a use case I have been working on where I'm lazy loading a data set as a user scrolls (like NewTwitter).\r\n\r\nCurrently I'm keeping track of the number of items loaded vs. the total, in my application code and updating the Collection.url with a URL parameter corresponding to the page number. I'm not sure if it makes sense to move some of this into backbone since server implementations may vary.\r\n\r\n", 
+        "closed_at": "2010-12-09T02:14:16Z", 
+        "comments": 3, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/116/comments", 
+        "created_at": "2010-12-03T15:49:33Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/116/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/116", 
+        "id": 454133, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/116/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 116, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/116.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/116", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/116.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/116"
+        }, 
+        "state": "closed", 
+        "title": "Appending when fetching collections", 
+        "updated_at": "2011-04-21T14:19:21Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/116", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/39121?v=3", 
+            "events_url": "https://api.github.com/users/ckorhonen/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/ckorhonen/followers", 
+            "following_url": "https://api.github.com/users/ckorhonen/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/ckorhonen/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/ckorhonen", 
+            "id": 39121, 
+            "login": "ckorhonen", 
+            "organizations_url": "https://api.github.com/users/ckorhonen/orgs", 
+            "received_events_url": "https://api.github.com/users/ckorhonen/received_events", 
+            "repos_url": "https://api.github.com/users/ckorhonen/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/ckorhonen/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/ckorhonen/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/ckorhonen"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "When not using a collection there is currently no way to utilize the existing url() method. Add a urlBase to your model let's you specify the base path without having to copy paste the entire url() method from Backbone.Model.", 
+        "closed_at": "2010-12-10T23:32:58Z", 
+        "comments": 6, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/114/comments", 
+        "created_at": "2010-12-02T22:27:17Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/114/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/114", 
+        "id": 452928, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/114/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 114, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/114.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/114", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/114.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/114"
+        }, 
+        "state": "closed", 
+        "title": "Add a urlBase option to model to allow specifying restful url without using a collection", 
+        "updated_at": "2010-12-10T18:35:08Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/114", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/8383?v=3", 
+            "events_url": "https://api.github.com/users/mkelly12/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/mkelly12/followers", 
+            "following_url": "https://api.github.com/users/mkelly12/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/mkelly12/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/mkelly12", 
+            "id": 8383, 
+            "login": "mkelly12", 
+            "organizations_url": "https://api.github.com/users/mkelly12/orgs", 
+            "received_events_url": "https://api.github.com/users/mkelly12/received_events", 
+            "repos_url": "https://api.github.com/users/mkelly12/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/mkelly12/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/mkelly12/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/mkelly12"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Hey hey,\r\n\r\nI started messing around with backbone and I was looking for the rake task and the thing just bailed on me, given that i didn't have closure-compiler installed.\r\n\r\nAs such, I moved the require for closure-compiler on the build task, which was the only one that needed it, and added some error messages when prerequisites are not present.\r\n\r\nHope this helps", 
+        "closed_at": "2010-11-28T02:24:46Z", 
+        "comments": 1, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/92/comments", 
+        "created_at": "2010-11-24T00:34:47Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/92/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/92", 
+        "id": 435765, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/92/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 92, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/92.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/92", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/92.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/92"
+        }, 
+        "state": "closed", 
+        "title": "Bit more helpful error messages in rake tasks", 
+        "updated_at": "2010-11-27T18:35:12Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/92", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1037?v=3", 
+            "events_url": "https://api.github.com/users/zmack/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/zmack/followers", 
+            "following_url": "https://api.github.com/users/zmack/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/zmack/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/zmack", 
+            "id": 1037, 
+            "login": "zmack", 
+            "organizations_url": "https://api.github.com/users/zmack/orgs", 
+            "received_events_url": "https://api.github.com/users/zmack/received_events", 
+            "repos_url": "https://api.github.com/users/zmack/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/zmack/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/zmack/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/zmack"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "It would be useful to have additional options argument in Backbone.Model initialize function in similar way as in Backbone.Collection initialize function. Options could be used to pass reference to other models that should not be stored in attributes (but could be stored in initializer as property). It could be useful to model has_one / belongs_to relationships, e.g.\r\n\r\n    User = Backbone.Model.extend({\r\n      newProfile: function(attributes) {\r\n        this.profile = new Profile(attributes, {user: this});\r\n      }\r\n    });\r\n    Profile = Backbone.Model.extend({\r\n      initialize: function(attributes, options) {\r\n        this.user = options.user;\r\n      },\r\n      fullDescription: function() {\r\n        return this.user.get(\"name\")+\" has profile desription: \"+this.get(\"description\");\r\n      }\r\n    });\r\n    user = new User({name: \"John\"});\r\n    user.newProfile({description: \"lorem ipsum\"});\r\n    user.profile.fullDescription();\r\n", 
+        "closed_at": "2010-11-04T07:32:50Z", 
+        "comments": 1, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/54/comments", 
+        "created_at": "2010-11-03T16:45:58Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/54/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/54", 
+        "id": 398392, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/54/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 54, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/54.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/54", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/54.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/54"
+        }, 
+        "state": "closed", 
+        "title": "add options argument to Backbone.Model initialize function", 
+        "updated_at": "2010-11-04T00:33:02Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/54", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/4736?v=3", 
+            "events_url": "https://api.github.com/users/rsim/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/rsim/followers", 
+            "following_url": "https://api.github.com/users/rsim/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/rsim/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/rsim", 
+            "id": 4736, 
+            "login": "rsim", 
+            "organizations_url": "https://api.github.com/users/rsim/orgs", 
+            "received_events_url": "https://api.github.com/users/rsim/received_events", 
+            "repos_url": "https://api.github.com/users/rsim/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/rsim/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/rsim/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/rsim"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "I reformatted and rearranged some of the code in inherits so it's easier to follow, and added some additional comments. It took me a while to figure out exactly what this function was doing so I think this extra content will help others understand as well.", 
+        "closed_at": "2010-11-03T23:11:25Z", 
+        "comments": 4, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/53/comments", 
+        "created_at": "2010-11-03T10:23:57Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/53/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/53", 
+        "id": 397506, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/53/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 53, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/53.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/53", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/53.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/53"
+        }, 
+        "state": "closed", 
+        "title": "Updated inherits helper function", 
+        "updated_at": "2010-11-04T01:48:32Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/53", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/10137?v=3", 
+            "events_url": "https://api.github.com/users/ghost/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/ghost/followers", 
+            "following_url": "https://api.github.com/users/ghost/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/ghost", 
+            "id": 10137, 
+            "login": "ghost", 
+            "organizations_url": "https://api.github.com/users/ghost/orgs", 
+            "received_events_url": "https://api.github.com/users/ghost/received_events", 
+            "repos_url": "https://api.github.com/users/ghost/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/ghost/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/ghost"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Hi, this is a minor nitpick, but it's weird that the Todo Model was manipulating the DOM directly. Here's a suggested fix.", 
+        "closed_at": "2010-11-02T05:50:30Z", 
+        "comments": 1, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/49/comments", 
+        "created_at": "2010-11-01T22:44:09Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/49/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/49", 
+        "id": 394558, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/49/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 49, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/49.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/49", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/49.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/49"
+        }, 
+        "state": "closed", 
+        "title": "ToDo example - better separation of model and view", 
+        "updated_at": "2010-11-01T22:51:09Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/49", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/119835?v=3", 
+            "events_url": "https://api.github.com/users/willmoffat/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/willmoffat/followers", 
+            "following_url": "https://api.github.com/users/willmoffat/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/willmoffat/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/willmoffat", 
+            "id": 119835, 
+            "login": "willmoffat", 
+            "organizations_url": "https://api.github.com/users/willmoffat/orgs", 
+            "received_events_url": "https://api.github.com/users/willmoffat/received_events", 
+            "repos_url": "https://api.github.com/users/willmoffat/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/willmoffat/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/willmoffat/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/willmoffat"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Just added a quick method to clear the attributes of a model.\n\n     user.clear()\n\nCheers!", 
+        "closed_at": "2010-11-01T22:43:11Z", 
+        "comments": 1, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/47/comments", 
+        "created_at": "2010-10-31T21:48:51Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/47/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/47", 
+        "id": 392612, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/47/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 47, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/47.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/47", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/47.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/47"
+        }, 
+        "state": "closed", 
+        "title": "Model#clear", 
+        "updated_at": "2010-11-01T15:44:10Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/47", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/718?v=3", 
+            "events_url": "https://api.github.com/users/chrislloyd/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/chrislloyd/followers", 
+            "following_url": "https://api.github.com/users/chrislloyd/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/chrislloyd/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/chrislloyd", 
+            "id": 718, 
+            "login": "chrislloyd", 
+            "organizations_url": "https://api.github.com/users/chrislloyd/orgs", 
+            "received_events_url": "https://api.github.com/users/chrislloyd/received_events", 
+            "repos_url": "https://api.github.com/users/chrislloyd/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/chrislloyd/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/chrislloyd/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/chrislloyd"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Ignore the first commit, this one is better I think.  After studying how Rals 2.3 and Rails 3 do PUT JSON routing,  and the underlying Rack code mentioned here (https://rails.lighthouseapp.com/projects/8994/tickets/2289-_methodput-ignored-for-xhr-and-xml-requests) and doing some testing, I think the last commit in this pull request is the cleanest and simplest approach for Backbone users.\n\nBy default all data is sent `application/json` encoded.  The model is simply converted to a JSON string and sent in the body.  The HTTP method mapping in the documentation holds, with updates being sent as PUT requests and deletes as DELETE requests.\n\nIn order to support legacy end-points that don't support application/json in the body or PUT requests, or legacy browsers that will not recognize the PUT request, users can turn on `emulateHttp`.   This will do the following\n\n* For PUT and DELETE requests, they will be sent as POST, the right `_method` param will be put in the body, and an appropriate `X-Http-Method-Override` header will be added to the request.  This will guarantee safe routing in Rails 2.3 pre-rack routing.\n* Send the model as a `model` param in the body.\n* Always encode the body as `application/x-www-form-urlencoded`.\n\nI got rid of the `emulateJSON` idea because in cases where it was needed, the flag `emulateHTTP` would also be needed and then questions would arise as to how they interact.  We don't want to cover all the possible uses cases.  We just want to provide one broad clean default option and one broad legacy option, and let the user override `Backbone.sync` if neither of them work.  Am I right?", 
+        "closed_at": "2010-11-02T00:54:11Z", 
+        "comments": 2, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/46/comments", 
+        "created_at": "2010-10-29T17:00:41Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/46/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/46", 
+        "id": 389353, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/46/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 46, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/46.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/46", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/46.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/46"
+        }, 
+        "state": "closed", 
+        "title": "New Sync default behavior - take 2", 
+        "updated_at": "2010-11-01T17:56:11Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/46", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/4343?v=3", 
+            "events_url": "https://api.github.com/users/mrjjwright/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/mrjjwright/followers", 
+            "following_url": "https://api.github.com/users/mrjjwright/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/mrjjwright/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/mrjjwright", 
+            "id": 4343, 
+            "login": "mrjjwright", 
+            "organizations_url": "https://api.github.com/users/mrjjwright/orgs", 
+            "received_events_url": "https://api.github.com/users/mrjjwright/received_events", 
+            "repos_url": "https://api.github.com/users/mrjjwright/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/mrjjwright/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/mrjjwright/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/mrjjwright"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "When using simple javascript templating solutions that expect just a JSON object and wanting to dump an entire collection into the template, this makes a lot of sense.", 
+        "closed_at": "2010-10-21T03:02:00Z", 
+        "comments": 2, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/34/comments", 
+        "created_at": "2010-10-20T19:39:46Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/34/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/34", 
+        "id": 373246, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/34/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 34, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/34.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/34", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/34.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/34"
+        }, 
+        "state": "closed", 
+        "title": "Backbone.Collection.toJSON()", 
+        "updated_at": "2010-10-20T20:06:56Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/34", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/354286?v=3", 
+            "events_url": "https://api.github.com/users/bunchesofdonald/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/bunchesofdonald/followers", 
+            "following_url": "https://api.github.com/users/bunchesofdonald/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/bunchesofdonald/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/bunchesofdonald", 
+            "id": 354286, 
+            "login": "bunchesofdonald", 
+            "organizations_url": "https://api.github.com/users/bunchesofdonald/orgs", 
+            "received_events_url": "https://api.github.com/users/bunchesofdonald/received_events", 
+            "repos_url": "https://api.github.com/users/bunchesofdonald/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/bunchesofdonald/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/bunchesofdonald/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/bunchesofdonald"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Hey everyone,\r\n\r\nI've added another demo app to the demos branch. It is a simple task manager, and I have tried to document the source fairly well so that someone new to Backbone would be able to pick it up pretty quickly.\r\n\r\nOf course, I am new to Backbone as well, so if I haven't used \"The Backbone Way\", I would appreciate feedback. I'll continue iterating on it until it provides a good example for newcomers.\r\n\r\nThanks!", 
+        "closed_at": "2010-10-20T02:03:36Z", 
+        "comments": 3, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/29/comments", 
+        "created_at": "2010-10-19T18:43:56Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/29/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/29", 
+        "id": 370916, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/29/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 29, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/29.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/29", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/29.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/29"
+        }, 
+        "state": "closed", 
+        "title": "Added another demo app", 
+        "updated_at": "2010-10-19T19:12:02Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/29", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/74571?v=3", 
+            "events_url": "https://api.github.com/users/fitzgen/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/fitzgen/followers", 
+            "following_url": "https://api.github.com/users/fitzgen/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/fitzgen/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/fitzgen", 
+            "id": 74571, 
+            "login": "fitzgen", 
+            "organizations_url": "https://api.github.com/users/fitzgen/orgs", 
+            "received_events_url": "https://api.github.com/users/fitzgen/received_events", 
+            "repos_url": "https://api.github.com/users/fitzgen/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/fitzgen/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/fitzgen/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/fitzgen"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Perhaps it's time for some npm love? I added a package.json to kick off the process!", 
+        "closed_at": "2010-10-17T21:10:26Z", 
+        "comments": 2, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/19/comments", 
+        "created_at": "2010-10-17T07:23:57Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/19/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/19", 
+        "id": 366512, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/19/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 19, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/19.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/19", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/19.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/19"
+        }, 
+        "state": "closed", 
+        "title": "Backbone is awesome.", 
+        "updated_at": "2010-11-23T19:08:35Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/19", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/46673?v=3", 
+            "events_url": "https://api.github.com/users/tmpvar/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/tmpvar/followers", 
+            "following_url": "https://api.github.com/users/tmpvar/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/tmpvar/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/tmpvar", 
+            "id": 46673, 
+            "login": "tmpvar", 
+            "organizations_url": "https://api.github.com/users/tmpvar/orgs", 
+            "received_events_url": "https://api.github.com/users/tmpvar/received_events", 
+            "repos_url": "https://api.github.com/users/tmpvar/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/tmpvar/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/tmpvar/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/tmpvar"
+        }
+    }, 
+    {
+        "assignee": null, 
+        "body": "Howdy folks.\r\n\r\nI added support for the Sinatra style _method hack.  It's disabled by default but if needed it turns HTTP PUT and DELETE requests into POST requests and sends an additional data value for \"_method\".\r\n\r\nThis makes backbone.js a bit more useful on the client side.  My friend was having problems getting the body of PUT requests on PHP that's when the need for the work-around became apparent.\r\n\r\nNote:\r\nI added the variable USE_METHOD_HACK directly to the Backbone object I couldn't think of another place to put the setting.", 
+        "closed_at": "2010-10-17T21:53:50Z", 
+        "comments": 7, 
+        "comments_url": "https://api.github.com/repos/jashkenas/backbone/issues/11/comments", 
+        "created_at": "2010-10-15T00:39:21Z", 
+        "events_url": "https://api.github.com/repos/jashkenas/backbone/issues/11/events", 
+        "html_url": "https://github.com/jashkenas/backbone/pull/11", 
+        "id": 363338, 
+        "labels": [
+            {
+                "color": "61b1e6", 
+                "name": "enhancement", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/enhancement"
+            }, 
+            {
+                "color": "000000", 
+                "name": "fixed", 
+                "url": "https://api.github.com/repos/jashkenas/backbone/labels/fixed"
+            }
+        ], 
+        "labels_url": "https://api.github.com/repos/jashkenas/backbone/issues/11/labels{/name}", 
+        "locked": false, 
+        "milestone": null, 
+        "number": 11, 
+        "pull_request": {
+            "diff_url": "https://github.com/jashkenas/backbone/pull/11.diff", 
+            "html_url": "https://github.com/jashkenas/backbone/pull/11", 
+            "patch_url": "https://github.com/jashkenas/backbone/pull/11.patch", 
+            "url": "https://api.github.com/repos/jashkenas/backbone/pulls/11"
+        }, 
+        "state": "closed", 
+        "title": "_method work-around", 
+        "updated_at": "2010-10-17T14:58:45Z", 
+        "url": "https://api.github.com/repos/jashkenas/backbone/issues/11", 
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/17028?v=3", 
+            "events_url": "https://api.github.com/users/hansoksendahl/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/hansoksendahl/followers", 
+            "following_url": "https://api.github.com/users/hansoksendahl/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/hansoksendahl/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/hansoksendahl", 
+            "id": 17028, 
+            "login": "hansoksendahl", 
+            "organizations_url": "https://api.github.com/users/hansoksendahl/orgs", 
+            "received_events_url": "https://api.github.com/users/hansoksendahl/received_events", 
+            "repos_url": "https://api.github.com/users/hansoksendahl/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/hansoksendahl/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/hansoksendahl/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/hansoksendahl"
+        }
+    }
+]
