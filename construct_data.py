@@ -1,21 +1,41 @@
 #Importing modules
+import json
+from pprint import pprint
 from copy import deepcopy
 
-EXTRACT_DATE_OUTPUT = "data/backbone.txt"
+JSON_FILE_PATH = "data/backbone.json"
 LOC_FORMAT_OUTPUT = "data/gitstats/backbone.output"
 OUTPUT_FILE_PATH = "data/backbone-result.txt"
 
+# open the json file from parse.py's output
+json_data=open(JSON_FILE_PATH)
+
+data = json.load(json_data)
+json_data.close()
+
+dates = []
+
+# get all the pull request's "closed_at" date
+for closeDate in data:
+	dates.append((closeDate["closed_at"].split("T"))[0] + "\n")
+
+# sorts the date
+dates.sort();
+
 # List to store all dates of the pull request
 prDateList = []
+
+# removes '\n' from each date. e.g. '2014-02-28\n'
+for date in dates:
+	prDateList.append(date.rsplit()[0])
+
 # List to store all dates of the lines of code 
 locDateList = []
 
 # Copy the dates from the output files from extractDate.py and loc_formatter.py to list
-with open(EXTRACT_DATE_OUTPUT, "r") as f1, open (LOC_FORMAT_OUTPUT, "r") as f2:
-	for line1 in f1:
-		prDateList.append(line1.rsplit()[0])
-	for line2 in f2:
-		locDateList.append(line2)
+with open (LOC_FORMAT_OUTPUT, "r") as f2:
+	for line in f2:
+		locDateList.append(line)
 
 # Merge prDateList with locDateList since there may be 
 # some dates in prDateList that are not in locDateList
