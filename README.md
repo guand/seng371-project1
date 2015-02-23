@@ -6,7 +6,11 @@ Jian Guan, Paul Moon, Jonathan Lam
 How does the rate of feature additions change as a project grows in size?
 
 ### Methodology (including the tools you expect to use)
-We can use Gource to visualize the additions of features in the system. We can use GitHub API to measure the rate of feature additions based on the labels on pull requests, and also count the lines of code to approximate the size of the project.
+We used the following tools:
+- [GitHub API](https://developer.github.com/v3/): Using a URL like `https://api.github.com/repos/twbs/bootstrap/issues?labels=feature&state=closed`, a list of closed issues with the `feature` label was obtained. Because we want a list of pull requests that were actually merged into master (since the list of feature issues could contain feature requests that were never worked on), the list of pull requests merged into master were obtained from another URL: `https://api.github.com/repos/twbs/bootstrap/pulls?state=closed`. The two lists were merged with a Python script ([parser.py](https://github.com/guand/seng371-project1/blob/master/parse.py)).
+- [Gitstats](http://gitstats.sourceforge.net/): Gitstats was used to get the lines of code from a GitHub repository. Because Gitstats returns the data in a `epochTime linesOfCode` format, another Python script was used to convert the epoch time to a YYYY-MM-DD format ([loc_formatter.py](https://github.com/guand/seng371-project1/blob/master/loc_formatter.py)).
+
+After gathering the data, the final step was to merge the two data sets, because the LOC had more data points than the number of merged feature pull requests, and the date data had to be merged to plot a graph. Google Spreadsheets was used to generate the final graphs.
 
 ### Codebases/Systems you will analyze
 Using the methodology above, we will analyze three codebases:
@@ -16,30 +20,25 @@ Using the methodology above, we will analyze three codebases:
 
 ### Project milestones
 #### Milestone 1 - January 27
-- Create project question 
-- pick repositories 
-- figure out the methodology for testing question
+- Create project question
+- Pick repositories
+- Describe the methodology for testing question
 
-#### Milestone 2 - February 03
+#### Milestone 2 - February 3
 - Create a hypothesis for the project based on the project question
-- Collect Data from the repositories chosen
+- Collect data from the repositories chosen
 
 #### Milestone 3 - February 17
-- Using the collected data from the repositories, do an analysis on the data
-- Give an assertion based on the data
+- Analyze the collected data
+- Provide an assertion based on the data
 
 #### Milestone 4 - February 23
-- will have a thorough analysis of these three repos showing Gource videos and statistics for answering the project question.
-
-### Current Issues
-- How can we get the lines of code (LOC) over time from the repositories?
-- What is a good way of graph LOC to feature additions over time? Google Docs? Excel?
+- Thoroughly analyze the three repositories using statistics and graphs
 
 ## Installation Guide
 ### Requirements
-- Python 2.6+ 
-- Access Token for Git API: To get Token follow these steps Profile->Settings->Applications->Presonal Access Token->Generate Token
-- Clone [git-loc](https://github.com/ITikhonov/git-loc)
+- Python 2.7+ 
+- Access Token for Git API: To get Token follow these steps Profile -> Settings -> Applications -> Personal Access Token -> Generate Token
 
 ### Quick Start
 ##### Edit the following configurations in `parse.py`:
@@ -49,6 +48,18 @@ Using the methodology above, we will analyze three codebases:
 - LABEL: The label for an issue that will be matched with pull requests that got merged into master. This is different for each repo, so be aware.
 
 Then run it: `python parse.py`. It should output a JSON file of pull requests that were merged into master AND issues that had your label.
+
+#### Gitstats
+- `git clone https://github.com/hoxu/gitstats.git`
+- Rename `gitstats` into `gitstats.py`
+- `python gitstats.py ../path/to/repo output`
+
+#### loc_formatter.py
+Go into the output directory from the previous step, and look for `lines_of_code.dat`.
+- Edit `loc_formatter.py` so that `files` contains tuples of (output_file_name, /relative/path/to/lines_of_code.dat).
+- `python loc_formatter.py ../path/to/lines_of_code.dat` from this repo's directory.
+
+Formatted files will reside in data/ directory.
 
 ##### Edit the following configurations in `construct_data.py`:
 - JSON_FILE_PATH: This should be the path to your results from 'parse.py'
