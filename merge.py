@@ -1,13 +1,17 @@
 #Importing modules
 from copy import deepcopy
 
+EXTRACT_DATE_OUTPUT = "data/backbone.txt"
+LOC_FORMAT_OUTPUT = "data/gitstats/backbone.output"
+OUTPUT_FILE_PATH = "data/backbone-result.txt"
+
 # List to store all dates of the pull request
 prDateList = []
 # List to store all dates of the lines of code 
 locDateList = []
 
 # Copy the dates from the output files from extractDate.py and loc_formatter.py to list
-with open("backbone.txt", "r") as f1, open ("backbone.output", "r") as f2:
+with open(EXTRACT_DATE_OUTPUT, "r") as f1, open (LOC_FORMAT_OUTPUT, "r") as f2:
 	for line1 in f1:
 		prDateList.append(line1.rsplit()[0])
 	for line2 in f2:
@@ -48,7 +52,7 @@ for date in locDateList:
 # Write all the dates and the current number of 
 # pull request at that time to a result file. 
 pullRequestCount = 0
-with open("backbone-result.txt", "w") as outFile:
+with open(OUTPUT_FILE_PATH, "w") as outFile:
 	for locDate in locDateList:
 		index = locDateList.index(locDate)
 		if locDate.split()[0] in prDateList:

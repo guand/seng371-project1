@@ -2,8 +2,11 @@
 import json
 from pprint import pprint
 
+JSON_FILE_PATH = "data/backbone.json"
+OUTPUT_FILE_PATH = "data/backbone.txt"
+
 # open the json file from parse.py's output
-json_data=open("backbone.json")
+json_data=open(JSON_FILE_PATH)
 
 data = json.load(json_data)
 json_data.close()
@@ -18,6 +21,6 @@ for closeDate in data:
 dates.sort();
 
 # write the dates out to a result file 
-with open("backbone.txt", "w") as f:
+with open(OUTPUT_FILE_PATH, "w") as f:
 	for date in dates:
 		f.write(date)
