@@ -73,10 +73,13 @@ Lastly, copy the data in the result file to a Google Spreadsheet and graph!
 Resulting ouput graph from Google Spreadsheet should look something like:
 
 - Backbone:
+
 ![Backbone result](https://cloud.githubusercontent.com/assets/5192167/6324839/8bb51596-baf4-11e4-8001-6b35f8692dcf.png)
 
 - Bootstrap:
+
 ![Bootstrap result](https://cloud.githubusercontent.com/assets/5192167/6324837/880d2dca-baf4-11e4-9e8a-09fc7334cf3c.png)
 
 - Homebrew:
+
 ![Homebrew result](https://cloud.githubusercontent.com/assets/5192167/6324840/8e296ee4-baf4-11e4-91f8-e45325d61dc5.png)
