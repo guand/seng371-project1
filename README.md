@@ -50,18 +50,12 @@ Using the methodology above, we will analyze three codebases:
 
 Then run it: `python parse.py`. It should output a JSON file of pull requests that were merged into master AND issues that had your label.
 
-##### Edit the following configurations in `extractDate.py`:
+##### Edit the following configurations in `construct_data.py`:
 - JSON_FILE_PATH: This should be the path to your results from 'parse.py'
-- OUTPUT_FILE_PATH: This is the path where the output file will be saved e.g. data/bootstrap.txt, where bootstrap-result.txt is the output file that will be created after you run 'extractDate.py'
-
-Then run it: `python extractDate.py`. It should output a .txt file of the "closed_at" dates of each pull requests.
-
-##### Edit the following configurations in `merge.py`:
-- EXTRACT_DATE_OUTPUT: This should be the path to your results from 'extractDate.py'
 - LOC_FORMAT_OUTPUT: This should be the path to your results from 'loc_formatter.py'
-- OUTPUT_FILE_PATH: This is the path where the result output file will be saved e.g. data/bootstrap-result.txt, where bootstrap-result.txt is the output file that will be created after you run 'merge.py'
+- OUTPUT_FILE_PATH: This is the path where the result output file will be saved e.g. data/bootstrap-result.txt, where bootstrap-result.txt is the output file that will be created after you run 'construct_data.py'
 
-Then run it: `python merge.py`. It should output a .txt file containing the data to construct your table and graph.
+Then run it: `python construct_data.py`. It should output a .txt file containing the data to construct your table and graph.
 Lastly, copy the data in the result file to a Google Spreadsheet and graph!
 
 Resulting ouput graph from Google Spreadsheet should look something like:
