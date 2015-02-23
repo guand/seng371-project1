@@ -32,7 +32,7 @@ for date in dates:
 # List to store all dates of the lines of code 
 locDateList = []
 
-# Copy the dates from the output files from extractDate.py and loc_formatter.py to list
+# Copy the dates from loc_formatter.py to list
 with open (LOC_FORMAT_OUTPUT, "r") as f2:
 	for line in f2:
 		locDateList.append(line)
