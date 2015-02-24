@@ -1,15 +1,15 @@
 # SENG 371 - Project 1
-Software evolution research on an open-source project.
+Software evolution research on open-source projects.
 Jian Guan, Paul Moon, Jonathan Lam
 
 ### 1.0 Project Question
 *How does the rate of feature additions change as a project grows in size?*
 
-We think that the rate of feature additions is important because for a project, it shows the relationship between the number of features added and the size of the project. Developers may be interested in this to see if they are continuing to add features to improve user satisfaction rather than only fixing bugs.
+We think that the rate of feature additions is important because it shows the relationship between the number of features added to a project and the size of the project. Developers may be interested in this relationship to see if they are continuing to add features to improve user satisfaction rather than only fixing bugs.
 
 ### 2.0 Methodology
 #### 2.1  Codebases chosen for analysis
-We will analyze three codebases:
+We analyzed three codebases:
 - [Backbone](https://github.com/jashkenas/backbone)
 - [Bootstrap](https://github.com/twbs/bootstrap)
 - [Homebrew](https://github.com/Homebrew/homebrew)
@@ -18,22 +18,22 @@ These codebases were chosen primarily because they practice good use of labeling
 
 #### 2.2  Methodology
 We used the following tools:
-- [GitHub API](https://developer.github.com/v3/): Using a URL like `https://api.github.com/repos/twbs/bootstrap/issues?labels=feature&state=closed`, a list of closed issues with the `feature` label was obtained. Because we want a list of pull requests that were actually merged into master (since the list of feature issues could contain feature requests that were never worked on), the list of pull requests merged into master were obtained from another URL: `https://api.github.com/repos/twbs/bootstrap/pulls?state=closed`. The two lists were merged with a Python script ([parser.py](https://github.com/guand/seng371-project1/blob/master/parse.py)).
+- [GitHub API](https://developer.github.com/v3/): Using a URL like `https://api.github.com/repos/twbs/bootstrap/issues?labels=feature&state=closed`, a list of closed issues with the `feature` label was obtained. Because we want a list of pull requests that were actually merged into master (since the list of `feature` issues could contain feature requests that were never worked on), the list of pull requests merged into master were obtained from another URL: `https://api.github.com/repos/twbs/bootstrap/pulls?state=closed`. The two lists were merged with a Python script ([parser.py](https://github.com/guand/seng371-project1/blob/master/parse.py)).
 - [Gitstats](http://gitstats.sourceforge.net/): Gitstats was used to get the lines of code from a GitHub repository. Because Gitstats returns the data in a `epochTime linesOfCode` format, another Python script was used to convert the epoch time to a YYYY-MM-DD format ([loc_formatter.py](https://github.com/guand/seng371-project1/blob/master/loc_formatter.py)).
 - [Google Sheets](http://www.google.ca/sheets/about/): Google Sheets was used to plot the graphs.
 - The scripts used for gathering and parsing the data were written in Python.
 
-After gathering the data, the final step was to merge the two data sets, because the LOC(Lines of code) had more data points than the number of merged feature pull requests, and the date data had to be merged to plot a graph. Google Sheets was used to generate the final graphs.
+After gathering the data, the final step was merging the data, because the LOC (Lines of code) had more data points than the number of merged feature pull requests, and the date data had to be merged to plot on the same graph. Google Sheets was used to generate the final graphs.
 
 ##### Metrics Gathered
-- List of issues with label 'feature' or 'new feature' (name can be different for each repo) that are closed. We gathered this data to obtain only the issues, which were considered as features, as opposed to styling changes, bug fixes, documentation etc. Only closed issues were obtained because we do not want to analyze open issues that are still waiting to be worked on.
-- List of pull requests that are closed. Only the closed pull requests were obtained because we considered only the pull requests, which were actually merged into the repo.
-- LOC from GitHub repositories over time. This will approximate the project size over time, which is necessary because we are analyzing how the rate of feature additions change **as the project grows**.
+- List of issues with label 'feature' or 'new feature' (name can be different for each repo) that are closed. We gathered this data to obtain only the issues which were considered as features, as opposed to styling changes, bug fixes, documentation etc. Only closed issues were obtained because we do not want to analyze open issues that are still waiting to be worked on.
+- List of pull requests that are closed. Only the closed pull requests were obtained because we considered only the pull requests which were actually merged into the repo.
+- LOC of GitHub repositories over time. This will approximate the project size over time, which is necessary because we are analyzing how the rate of feature additions change **as the project grows**.
 
 ### 3.0 Quick Start
 #### 3.1 Requirements
 - Python 2.7+ 
-- Access Token for Git API: To get Token follow these steps Profile -> Settings -> Applications -> Personal Access Token -> Generate Token
+- Access Token for Git API: To get an access token, follow these menu items on the GitHub site: Profile -> Settings -> Applications -> Personal Access Token -> Generate Token.
 
 #### 3.2  Obtaining pull request/issues from GitHub.
 Edit the following configurations in `parse.py`:
@@ -45,6 +45,7 @@ Edit the following configurations in `parse.py`:
 Then run it: `python parse.py`. It should output a JSON file of pull requests that were merged into master AND issues that had your label.
 
 #### 3.3  Gitstats
+Gitstats was used for gathering LOC data from a git repo.
 - `git clone https://github.com/hoxu/gitstats.git`
 - Rename `gitstats` into `gitstats.py`
 - `python gitstats.py ../path/to/repo output`
@@ -68,7 +69,7 @@ Lastly, copy the data in the result file to a Google Sheet file, and then graph 
 ### 4.0 Results & Analysis
 #### 4.1  Results
 
-The raw results can be found in `data` directory (here)[https://github.com/guand/seng371-project1/tree/master/data]. Below are the graphs showing the relationship between feature additions and LOC over time for each of our repositories.
+The raw results can be found in `data` directory [here](https://github.com/guand/seng371-project1/tree/master/data). Below are the graphs showing the relationship between the rate of feature additions and LOC over time for each of our repositories.
 
 - Backbone:
 
@@ -89,7 +90,7 @@ Our hypothesis was that the rate of feature additions will be inversely proporti
 The graph shows that the slopes for both LOC and enhancement pull requests were both positive and relatively unchanging. This shows that as the project grew in size, the rate at which feature pull requests were merged into master was not affected. 
 
 ##### 4.2.2 Bootstrap
-The Bootstrap repo graph shows that from the beginning of the project to around 01/01/2013, not many features were added to the repo while the LOC grew and shrunk. After 01/01/2013, the rate at which features were added exploded. This may be explained by the growing popularity of Bootstrap as shown by the Google Search Trends below. The slope of the feature additions line is unchanging as the project size grows, which suggests that there is no significant causal relationship between them, contrary to our hypothesis. 
+The Bootstrap repo graph shows that from the beginning of the project to around 01/01/2013, not many features were added to the repo while the LOC grew and shrunk. After 01/01/2013, the feature addition rate exploded. This may be explained by the growing popularity of Bootstrap as shown by the Google Search Trends below. The slope of the feature additions line is unchanging as the project size grows, which suggests that there is no significant causal relationship between them, contrary to our hypothesis. 
 
 ![Bootstrap searchtrends](https://cloud.githubusercontent.com/assets/1689157/6340764/96f03444-bb77-11e4-939e-205745bd6e6a.png)
 
@@ -97,7 +98,7 @@ The Bootstrap repo graph shows that from the beginning of the project to around 
 The Homebrew graph shows that no feature pull requests were added to the repo except between December 2012 and August 2013, during which a total of 8 features were added. The project size grew consistently but the rate of feature addition was relatively unchanging. This could be because the maintainers stopped using the labels or incorrectly use the labels (e.g. documentation was labeled as a feature).
 
 ##### 4.2.4 Overall Analysis
-Based on our analysis, our hypothesis was proven wrong. The Backbone and Bootstrap repos showed that the rate of feature addition (slope) was consistent with the rate of project growth. The Homebrew data was not considered to be significant for our analysis, because there was not enough feature pull requests to be statistically significant (only 8 feature additions over 6 years)
+Based on our analysis, our hypothesis was proven wrong. The Backbone and Bootstrap repos showed that the rate of feature addition (slope) was consistent with the rate of project growth. The Homebrew data was not considered to be significant for our analysis, because there were not enough feature pull requests to be statistically significant (only 8 feature additions over 6 years)
 
 ###### Threats to validity
 - Not all features will be labeled diligently by the maintainers. Similarly, not all pull requests labeled as features are actually features. Our analysis does not take human error into account.
@@ -108,6 +109,7 @@ Based on our analysis, our hypothesis was proven wrong. The Backbone and Bootstr
 - Analyze more repos.
 - Come up with a better, more consistent way of classifying pull requests as feature additions.
 - Improve the scripts for reusability e.g. take repo names from a file input, or use Google Sheet API for automatically generating graphs.
+- Project size can be better measured than just LOC.
 
 ### 5.0 Project Management Information
 #### 5.1  Milestones
