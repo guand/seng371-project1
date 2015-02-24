@@ -23,12 +23,12 @@ We used the following tools:
 - [Google Sheets](http://www.google.ca/sheets/about/): Google Sheets was used to plot the graphs.
 - The scripts used for gathering and parsing the data were written in Python.
 
-After gathering the data, the final step was to merge the two data sets, because the LOC had more data points than the number of merged feature pull requests, and the date data had to be merged to plot a graph. Google Spreadsheets was used to generate the final graphs.
+After gathering the data, the final step was to merge the two data sets, because the LOC(Lines of code) had more data points than the number of merged feature pull requests, and the date data had to be merged to plot a graph. Google Sheets was used to generate the final graphs.
 
 ##### Metrics Gathered
-- List of issues with label 'feature' or 'new feature' (name can be different for each repo) that are closed. We gathered this data to obtain only the issues which were considered as features, as opposed to styling changes, bug fixes, documentation etc. Only closed issues were obtained because we do not want to analyze open issues that are still waiting to be worked on.
-- List of pull requests that are closed. Only the closed pull requests were obtained because we considered only the pull requests which were actually merged into the repo.
-- Lines of code from GitHub repositories over time. This will approximate the project size over time, which is necessary because we are analyzing how the rate of feature additions change **as the project grows**.
+- List of issues with label 'feature' or 'new feature' (name can be different for each repo) that are closed. We gathered this data to obtain only the issues, which were considered as features, as opposed to styling changes, bug fixes, documentation etc. Only closed issues were obtained because we do not want to analyze open issues that are still waiting to be worked on.
+- List of pull requests that are closed. Only the closed pull requests were obtained because we considered only the pull requests, which were actually merged into the repo.
+- LOC from GitHub repositories over time. This will approximate the project size over time, which is necessary because we are analyzing how the rate of feature additions change **as the project grows**.
 
 ### 3.0 Quick Start
 #### 3.1 Requirements
@@ -63,7 +63,7 @@ Edit the following configurations in `construct_data.py`:
 - OUTPUT_FILE_PATH: This is the path where the result output file will be saved e.g. data/bootstrap-result.txt, where bootstrap-result.txt is the output file that will be created after you run 'construct_data.py'
 
 Then run it: `python construct_data.py`. It should output a .txt file containing the data to construct your table and graph.
-Lastly, copy the data in the result file to a Google Sheet file, and graph it!
+Lastly, copy the data in the result file to a Google Sheet file, and then graph it!
 
 ### 4.0 Results & Analysis
 #### 4.1  Results
@@ -100,9 +100,9 @@ The Homebrew graph shows that no feature pull requests were added to the repo ex
 Based on our analysis, our hypothesis was proven wrong. The Backbone and Bootstrap repos showed that the rate of feature addition (slope) was consistent with the rate of project growth. The Homebrew data was not considered to be significant for our analysis, because there was not enough feature pull requests to be statistically significant (only 8 feature additions over 6 years)
 
 ###### Threats to validity
-- Not all features will be labeled diligently by the maintainers. Similarly, not all features labeled as features may not actually be features. Our analysis does not take human error into account.
+- Not all features will be labeled diligently by the maintainers. Similarly, not all pull requests labeled as features are actually features. Our analysis does not take human error into account.
 - If the project suddently becomes popular, there may be an increase in feature requests, and consequently feature additions to the repo. We did not take this into account in our analysis, but this can play a big role in feature additions (see popularity of Bootstrap in Section 4.2.2).
-- Analyzing only three repos out of thousands is not considered as statistically significant.
+- Analyzing only three repos out of thousands is not considered statistically significant.
 
 ###### Future work
 - Analyze more repos.
