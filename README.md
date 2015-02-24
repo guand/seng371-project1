@@ -25,7 +25,7 @@ We used the following tools:
 
 After gathering the data, the final step was to merge the two data sets, because the LOC had more data points than the number of merged feature pull requests, and the date data had to be merged to plot a graph. Google Spreadsheets was used to generate the final graphs.
 
-Metrics Gathered
+##### Metrics Gathered
 - List of issues with label 'feature' or 'new feature' (name can be different for each repo) that are closed. We gathered this data to obtain only the issues which were considered as features, as opposed to styling changes, bug fixes, documentation etc. Only closed issues were obtained because we do not want to analyze open issues that are still waiting to be worked on.
 - List of pull requests that are closed. Only the closed pull requests were obtained because we considered only the pull requests which were actually merged into the repo.
 - Lines of code from GitHub repositories over time. This will approximate the project size over time, which is necessary because we are analyzing how the rate of feature additions change **as the project grows**.
@@ -89,7 +89,9 @@ Our hypothesis was that the rate of feature additions will be inversely proporti
 The graph shows that the slopes for both LOC and enhancement pull requests were both positive and relatively unchanging. This shows that as the project grew in size, the rate at which feature pull requests were merged into master was not affected. 
 
 ##### 4.2.2 Bootstrap
-The Bootstrap repo graph shows that from the beginning of the project to around 01/01/2013, not many features were added to the repo while the LOC grew and shrunk. After 01/01/2013, the rate at which features were added exploded. This may be explained by the growing popularity of Bootstrap as shown by the Google Search Trends below. The slope of the feature additions line is unchanging as the project size grows, which suggests that there is no significant causal relationship between them, contrary to our hypothesis.
+The Bootstrap repo graph shows that from the beginning of the project to around 01/01/2013, not many features were added to the repo while the LOC grew and shrunk. After 01/01/2013, the rate at which features were added exploded. This may be explained by the growing popularity of Bootstrap as shown by the Google Search Trends below. The slope of the feature additions line is unchanging as the project size grows, which suggests that there is no significant causal relationship between them, contrary to our hypothesis. 
+
+![Bootstrap searchtrends](https://cloud.githubusercontent.com/assets/1689157/6340764/96f03444-bb77-11e4-939e-205745bd6e6a.png)
 
 ##### 4.2.3 Homebrew
 The Homebrew graph shows that no feature pull requests were added to the repo except between December 2012 and August 2013, during which a total of 8 features were added. The project size grew consistently but the rate of feature addition was relatively unchanging. This could be because the maintainers stopped using the labels or incorrectly use the labels (e.g. documentation was labeled as a feature).
@@ -99,7 +101,7 @@ Based on our analysis, our hypothesis was proven wrong. The Backbone and Bootstr
 
 ###### Threats to validity
 - Not all features will be labeled diligently by the maintainers. Similarly, not all features labeled as features may not actually be features. Our analysis does not take human error into account.
-- If the project suddently becomes popular, there may be an increase in feature requests, and consequently feature additions to the repo. We did not take this into account in our analysis.
+- If the project suddently becomes popular, there may be an increase in feature requests, and consequently feature additions to the repo. We did not take this into account in our analysis, but this can play a big role in feature additions (see popularity of Bootstrap in Section 4.2.2).
 - Analyzing only three repos out of thousands is not considered as statistically significant.
 
 ###### Future work
